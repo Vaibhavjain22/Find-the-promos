@@ -1,0 +1,5343 @@
+{
+  "meta": {
+    "evaluator": "gpt-4o-mini",
+    "episodes": 50,
+    "candidates_evaluated": 181,
+    "after_nms": 161,
+    "iou_threshold": 0.6,
+    "runtime_s": 123.2,
+    "reranked": true
+  },
+  "promos": [
+    {
+      "candidate_id": "E036-C1",
+      "kind": "continuous",
+      "episode": "Episode 36",
+      "total_duration": 54.25,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 36",
+          "start_time": "02:26.50",
+          "end_time": "03:20.75",
+          "duration": 54.25,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander learns about Rupert and Catherine's wedding and Juliana's fate.",
+        "cliffhanger_description": "Alexander vows to return from the dead and take revenge before the wedding.",
+        "why_it_works": "The intense vow of vengeance and the shocking revelation of Juliana's fate create a gripping narrative that hooks viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 10.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.8,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.744,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 8.3
+    },
+    {
+      "candidate_id": "E032-C1",
+      "kind": "continuous",
+      "episode": "Episode 32",
+      "total_duration": 35.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 32",
+          "start_time": "01:56.90",
+          "end_time": "02:32.00",
+          "duration": 35.1,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana confronts Catherine, accusing her of never learning how to make anyone love her.",
+        "cliffhanger_description": "Catherine threatens Juliana with a branding rod, leaving her gasping in fear.",
+        "why_it_works": "The intense confrontation and imminent danger create a gripping moment that compels viewers to watch more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 10.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.6,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.696,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 8.1
+    },
+    {
+      "candidate_id": "E039-C1",
+      "kind": "continuous",
+      "episode": "Episode 39",
+      "total_duration": 22.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 39",
+          "start_time": "01:15.80",
+          "end_time": "01:38.00",
+          "duration": 22.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander asserts his authority and determination to reclaim his house and wife.",
+        "cliffhanger_description": "The screen cuts to black just as Alexander vows to bring his wife home, leaving his fate uncertain.",
+        "why_it_works": "The powerful declaration and emotional stakes create immediate intrigue for viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.4,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes context"
+        ]
+      },
+      "heuristic_prior": 0.46,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.9
+    },
+    {
+      "candidate_id": "E046-C3",
+      "kind": "continuous",
+      "episode": "Episode 46",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 46",
+          "start_time": "00:42.80",
+          "end_time": "01:02.80",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The High Priest declares the wedding invalid due to lack of royal license, shocking the audience with the implications.",
+        "cliffhanger_description": "Juliana defiantly states she didn't need permission to survive, leaving her fate uncertain.",
+        "why_it_works": "The intense conflict and Juliana's fierce defiance create immediate intrigue.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for the wedding situation"
+        ]
+      },
+      "heuristic_prior": 0.52,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E045-C2",
+      "kind": "continuous",
+      "episode": "Episode 45",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 45",
+          "start_time": "00:54.00",
+          "end_time": "01:14.00",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander accuses Catherine of poisoning his mother and torturing his wife, creating immediate tension.",
+        "cliffhanger_description": "Alexander declares Juliana his wife, leaving the audience shocked and wanting to know more about the implications.",
+        "why_it_works": "The intense confrontation and declaration of marriage hook viewers, while the cliffhanger raises stakes and curiosity.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.576,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E037-C1",
+      "kind": "continuous",
+      "episode": "Episode 37",
+      "total_duration": 20.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 37",
+          "start_time": "00:54.00",
+          "end_time": "01:14.20",
+          "duration": 20.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Clarissa reveals a shocking decree about a public execution paired with a wedding.",
+        "cliffhanger_description": "The nobleman asks, 'To whom?' leaving the audience in suspense.",
+        "why_it_works": "The juxtaposition of a wedding and execution creates a gripping tension that intrigues viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for execution decree"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E035-C3",
+      "kind": "continuous",
+      "episode": "Episode 35",
+      "total_duration": 20.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 35",
+          "start_time": "02:17.00",
+          "end_time": "02:37.50",
+          "duration": 20.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander reveals a shocking betrayal that led to his men's deaths.",
+        "cliffhanger_description": "He ominously states that the conspirators are now in power, leaving the question of who they are unanswered.",
+        "why_it_works": "The intense emotions and shocking revelations create immediate intrigue for new viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear pronoun reference",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.6111,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E021-C3",
+      "kind": "continuous",
+      "episode": "Episode 21",
+      "total_duration": 20.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 21",
+          "start_time": "00:04.20",
+          "end_time": "00:25.00",
+          "duration": 20.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A desperate plea for help as a girl reveals her brother is dying.",
+        "cliffhanger_description": "Prudence reveals the doctor laughed at her plea for help, leaving Toby's fate uncertain.",
+        "why_it_works": "The emotional urgency and desperation immediately draw viewers in, while the unresolved fate of Toby creates a compelling reason to watch more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.468,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E046-C2",
+      "kind": "continuous",
+      "episode": "Episode 46",
+      "total_duration": 22.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 46",
+          "start_time": "00:26.80",
+          "end_time": "00:49.00",
+          "duration": 22.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The High Priest dismisses the marriage, revealing a shocking twist about the groom's identity.",
+        "cliffhanger_description": "The High Priest's final words imply a serious legal issue with the marriage, leaving the outcome uncertain.",
+        "why_it_works": "The dramatic revelation and high stakes create immediate intrigue for new viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E026-C1",
+      "kind": "continuous",
+      "episode": "Episode 26",
+      "total_duration": 23.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 26",
+          "start_time": "00:56.00",
+          "end_time": "01:19.40",
+          "duration": 23.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Dowager Duchess accuses her family of poisoning her, creating immediate tension.",
+        "cliffhanger_description": "The Duchess demands to know why Juliana, with her noble spirit, is a maid, leaving her identity in question.",
+        "why_it_works": "The emotional stakes are high, and the mystery of Juliana's identity hooks viewers.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.6442,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E048-C3",
+      "kind": "continuous",
+      "episode": "Episode 48",
+      "total_duration": 24.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 48",
+          "start_time": "00:02.40",
+          "end_time": "00:26.50",
+          "duration": 24.1,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine delivers a chilling line about a healer's crown rolling into the gutter, showcasing her vindictive nature.",
+        "cliffhanger_description": "Catherine ominously states that ten days is a door that can be closed from the other side, hinting at her secret plans.",
+        "why_it_works": "The intense delivery and menacing tone create immediate intrigue about Catherine's motives and the stakes involved.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for the healer's crown and council"
+        ]
+      },
+      "heuristic_prior": 0.436,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E025-C3",
+      "kind": "continuous",
+      "episode": "Episode 25",
+      "total_duration": 32.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 25",
+          "start_time": "01:17.40",
+          "end_time": "01:49.40",
+          "duration": 32.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander asks Juliana what she found, leading to a shocking revelation about poison.",
+        "cliffhanger_description": "Alexander's tense question about whether Juliana treated the Dowager Duchess alone hangs in the air, leaving uncertainty.",
+        "why_it_works": "The revelation of poisoning creates immediate tension and intrigue, compelling viewers to learn more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear pronoun reference",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E023-C1",
+      "kind": "continuous",
+      "episode": "Episode 23",
+      "total_duration": 47.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 23",
+          "start_time": "01:22.00",
+          "end_time": "02:09.50",
+          "duration": 47.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana reveals the poison is arsenic, shocking Prudence.",
+        "cliffhanger_description": "Prudence warns Juliana that someone is coming, creating immediate tension.",
+        "why_it_works": "The urgency and revelation of poisoning hook viewers, while the impending arrival adds suspense.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for the poisoning situation"
+        ]
+      },
+      "heuristic_prior": 0.6223,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E042-C1",
+      "kind": "continuous",
+      "episode": "Episode 42",
+      "total_duration": 59.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 42",
+          "start_time": "00:18.00",
+          "end_time": "01:17.50",
+          "duration": 59.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A furious nobleman demands the guards arrest Alexander, who is revealed to be alive.",
+        "cliffhanger_description": "Alexander declares to Rupert that they will settle what he stole.",
+        "why_it_works": "The intense confrontation and emotional reunion hook viewers, while the unresolved threat to Rupert keeps them wanting more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "unclear relationships",
+          "context needed for character motivations"
+        ]
+      },
+      "heuristic_prior": 0.696,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.7
+    },
+    {
+      "candidate_id": "E015-C1",
+      "kind": "continuous",
+      "episode": "Episode 15",
+      "total_duration": 41.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 15",
+          "start_time": "00:44.80",
+          "end_time": "01:26.00",
+          "duration": 41.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A thug threatens Juliana, who defiantly refuses to back down.",
+        "cliffhanger_description": "Alexander confronts the thugs, ready to fight for Juliana.",
+        "why_it_works": "The intense confrontation and emotional stakes draw viewers in immediately.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.9382,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.5
+    },
+    {
+      "candidate_id": "E003-C2",
+      "kind": "continuous",
+      "episode": "Episode 3",
+      "total_duration": 56.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 3",
+          "start_time": "01:24.00",
+          "end_time": "02:20.30",
+          "duration": 56.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Bearded Stranger blocks a guard's strike and questions why they're attacking a defenseless woman.",
+        "cliffhanger_description": "The Bearded Stranger kneels and offers a ring to Juliana, asking her to accept his hand.",
+        "why_it_works": "The dramatic rescue and unexpected proposal create immediate intrigue and emotional stakes.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.0,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.636,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.5
+    },
+    {
+      "candidate_id": "E013-C1",
+      "kind": "continuous",
+      "episode": "Episode 13",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 13",
+          "start_time": "01:26.50",
+          "end_time": "01:46.50",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "ALEXANDER (ROARING IN TORMENT): \"Juliana!\"",
+        "cliffhanger_description": "Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch.",
+        "why_it_works": "The intense emotional plea and physical struggle create immediate tension, compelling viewers to find out what happens next.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.526,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E039-C2",
+      "kind": "continuous",
+      "episode": "Episode 39",
+      "total_duration": 20.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 39",
+          "start_time": "00:29.80",
+          "end_time": "00:50.00",
+          "duration": 20.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A commanding sentry is confronted by a meek cart driver who suddenly attacks him.",
+        "cliffhanger_description": "A loyalist fighter whispers 'Sleep' as the sentry goes limp, leaving the fate of the mission uncertain.",
+        "why_it_works": "The intense action and sudden betrayal hook viewers immediately, while the unresolved mission creates suspense.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.42,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E007-C3",
+      "kind": "continuous",
+      "episode": "Episode 7",
+      "total_duration": 20.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 7",
+          "start_time": "00:48.80",
+          "end_time": "01:09.50",
+          "duration": 20.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana asserts her strength against Gerald's mockery.",
+        "cliffhanger_description": "Gerald threatens Juliana's husband, leaving her vulnerable.",
+        "why_it_works": "The tension between Juliana and Gerald sets up a compelling conflict that draws viewers in.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E043-C2",
+      "kind": "continuous",
+      "episode": "Episode 43",
+      "total_duration": 21.56,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 43",
+          "start_time": "01:33.40",
+          "end_time": "01:54.96",
+          "duration": 21.56,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A desperate nobleman screams about someone he thought was dead, creating immediate tension.",
+        "cliffhanger_description": "A police constable confronts Lord Sterling, leaving his fate uncertain.",
+        "why_it_works": "The intense emotions and confrontation hook viewers, while the cliffhanger raises stakes.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "needs earlier episodes for context"
+        ]
+      },
+      "heuristic_prior": 0.776,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E033-C1",
+      "kind": "continuous",
+      "episode": "Episode 33",
+      "total_duration": 24.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 33",
+          "start_time": "01:08.50",
+          "end_time": "01:32.50",
+          "duration": 24.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The maid gasps in sheer terror, her chest heaving as tears stream.",
+        "cliffhanger_description": "LORD (COERCIVE): \"Like a circle?\"",
+        "why_it_works": "The emotional intensity and high stakes immediately draw viewers in.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E027-C1",
+      "kind": "continuous",
+      "episode": "Episode 27",
+      "total_duration": 24.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 27",
+          "start_time": "02:03.10",
+          "end_time": "02:27.50",
+          "duration": 24.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Catherine accuses Juliana of poisoning the Duchess, creating immediate tension.",
+        "cliffhanger_description": "Juliana is forcibly taken away, leaving her fate uncertain.",
+        "why_it_works": "The intense accusation and physical confrontation create a gripping moment that compels viewers to watch more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear pronoun reference",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.708,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E041-C1",
+      "kind": "continuous",
+      "episode": "Episode 41",
+      "total_duration": 26.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 41",
+          "start_time": "00:58.00",
+          "end_time": "01:24.00",
+          "duration": 26.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana defiantly challenges her captors, questioning their need for power over her.",
+        "cliffhanger_description": "A violent fireball bursts inward as the entire cathedral entrance explodes, signaling chaos.",
+        "why_it_works": "The explosive entrance creates immediate tension and intrigue, compelling viewers to want to know more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for the explosion"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E020-C1",
+      "kind": "continuous",
+      "episode": "Episode 20",
+      "total_duration": 26.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 20",
+          "start_time": "00:12.80",
+          "end_time": "00:39.10",
+          "duration": 26.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Rupert reveals that the succession papers for the ducal title are being finalized, indicating a power grab.",
+        "cliffhanger_description": "Catherine questions how much longer the Dowager can survive, hinting at a sinister plot.",
+        "why_it_works": "The dialogue sets up a tense power struggle with dark undertones, enticing viewers to learn more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "needs earlier episodes for context"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E029-C3",
+      "kind": "continuous",
+      "episode": "Episode 29",
+      "total_duration": 32.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 29",
+          "start_time": "00:21.00",
+          "end_time": "00:53.60",
+          "duration": 32.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine mocks Juliana's mother's herbarium, threatening to frame her for witchcraft.",
+        "cliffhanger_description": "Catherine chillingly suggests Juliana's fate if she doesn't comply.",
+        "why_it_works": "The intense confrontation and high stakes create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E028-C1",
+      "kind": "continuous",
+      "episode": "Episode 28",
+      "total_duration": 34.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 28",
+          "start_time": "00:12.70",
+          "end_time": "00:47.00",
+          "duration": 34.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine accuses Juliana of poisoning the Duchess, setting a tense confrontation.",
+        "cliffhanger_description": "The Duchess collapses, hinting at a deeper conspiracy and leaving Juliana's fate uncertain.",
+        "why_it_works": "The intense accusation and the Duchess's collapse create immediate stakes and intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "needs earlier episodes for context"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E033-C2",
+      "kind": "continuous",
+      "episode": "Episode 33",
+      "total_duration": 34.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 33",
+          "start_time": "01:16.80",
+          "end_time": "01:51.50",
+          "duration": 34.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A young maid, crying and shattered, is coerced into giving false testimony.",
+        "cliffhanger_description": "The Lord taunts the maid, questioning whether Juliana was praying or chanting, leaving the truth ambiguous.",
+        "why_it_works": "The emotional intensity and moral dilemma hook viewers, while the taunting cliffhanger raises stakes.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character motivations"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E034-C1",
+      "kind": "continuous",
+      "episode": "Episode 34",
+      "total_duration": 46.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 34",
+          "start_time": "00:13.80",
+          "end_time": "01:00.10",
+          "duration": 46.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana defiantly refuses to renounce her mother's herbal medicine in court.",
+        "cliffhanger_description": "The Judge demands to know what Prudence saw, leaving the truth in question.",
+        "why_it_works": "The tension of a witch trial and the stakes of false testimony create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E021-C1",
+      "kind": "continuous",
+      "episode": "Episode 21",
+      "total_duration": 50.9,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 21",
+          "start_time": "00:47.30",
+          "end_time": "01:38.20",
+          "duration": 50.9,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana rushes in, alarmed, and declares a boy's skin is burning hot.",
+        "cliffhanger_description": "Lady Juliana turns sharply, startled, asking if someone is ill, specifically the Dowager Duchess.",
+        "why_it_works": "The urgency of saving a boy and the hint of a larger mystery about the Dowager Duchess creates immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E035-C1",
+      "kind": "continuous",
+      "episode": "Episode 35",
+      "total_duration": 53.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 35",
+          "start_time": "01:44.50",
+          "end_time": "02:37.50",
+          "duration": 53.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "ALEXANDER (HOLLOW): \"I was shot. Left for dead.\"",
+        "cliffhanger_description": "ALEXANDER (DEADLY, CHILLING): \"The men behind it... are the same men ruling Ashwood now.\"",
+        "why_it_works": "The shocking revelation about the conspiracy and the emotional reunion create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.696,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E005-C1",
+      "kind": "continuous",
+      "episode": "Episode 5",
+      "total_duration": 55.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 5",
+          "start_time": "00:55.50",
+          "end_time": "01:50.50",
+          "duration": 55.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana screams desperately as her stepmother throws her mother's ledger into the mud.",
+        "cliffhanger_description": "The Mysterious Bearded Man warns Gerald to choose his next words carefully.",
+        "why_it_works": "The emotional turmoil and protective stance of the new husband create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.708,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E028-C2",
+      "kind": "continuous",
+      "episode": "Episode 28",
+      "total_duration": 58.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 28",
+          "start_time": "00:38.20",
+          "end_time": "01:37.00",
+          "duration": 58.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Dowager Duchess accuses someone of poisoning her, creating immediate tension.",
+        "cliffhanger_description": "Juliana gasps in horror, realizing her secret identity has been laid bare.",
+        "why_it_works": "The intense accusation and the revelation of Juliana's identity hook viewers and leave them wanting to know more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E026-C3",
+      "kind": "continuous",
+      "episode": "Episode 26",
+      "total_duration": 59.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 26",
+          "start_time": "00:56.00",
+          "end_time": "01:55.50",
+          "duration": 59.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Dowager Duchess accuses Rupert and Catherine of poisoning her, creating immediate tension.",
+        "cliffhanger_description": "The Duchess demands to know where Juliana got the ring, leaving the truth about her identity unresolved.",
+        "why_it_works": "The intense confrontation and mystery surrounding the ring will intrigue viewers.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.6185,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E032-C2",
+      "kind": "continuous",
+      "episode": "Episode 32",
+      "total_duration": 59.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 32",
+          "start_time": "01:22.50",
+          "end_time": "02:22.30",
+          "duration": 59.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine dismisses someone as a nobody, and Juliana defiantly claims her love for him.",
+        "cliffhanger_description": "Juliana asserts that Catherine needs to threaten her to feel powerful, leaving Catherine enraged.",
+        "why_it_works": "The emotional confrontation and Juliana's defiance create a compelling tension that draws viewers in.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.636,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.3
+    },
+    {
+      "candidate_id": "E035-C2",
+      "kind": "continuous",
+      "episode": "Episode 35",
+      "total_duration": 26.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 35",
+          "start_time": "01:44.50",
+          "end_time": "02:10.50",
+          "duration": 26.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A mother anxiously asks her son about his fate after believing he was dead.",
+        "cliffhanger_description": "The mother asks, 'Who?' after learning of a conspiracy surrounding her son's supposed death.",
+        "why_it_works": "The emotional reunion and shocking revelation about a conspiracy will intrigue viewers.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 7.0
+    },
+    {
+      "candidate_id": "E036-C2",
+      "kind": "continuous",
+      "episode": "Episode 36",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 36",
+          "start_time": "00:00.80",
+          "end_time": "00:20.80",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander reveals the shocking truth about his disappearance and the betrayal by Rupert.",
+        "cliffhanger_description": "Alexander's mother gasps in horror at the mention of Rupert, leaving the audience in suspense.",
+        "why_it_works": "The emotional intensity and revelation of betrayal hook viewers immediately, while the cliffhanger raises stakes.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E005-C3",
+      "kind": "continuous",
+      "episode": "Episode 5",
+      "total_duration": 29.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 5",
+          "start_time": "00:16.00",
+          "end_time": "00:45.80",
+          "duration": 29.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lord Ashcroft harshly disowns Juliana, revoking her dowry and inheritance.",
+        "cliffhanger_description": "Lady Ashcroft demands the ledger, leaving Juliana's fate uncertain.",
+        "why_it_works": "The emotional stakes are high, drawing viewers into Juliana's struggle against her family.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "unclear family dynamics",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E029-C1",
+      "kind": "continuous",
+      "episode": "Episode 29",
+      "total_duration": 40.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 29",
+          "start_time": "00:37.70",
+          "end_time": "01:18.10",
+          "duration": 40.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine threatens to frame Juliana for witchcraft, setting a tense confrontation.",
+        "cliffhanger_description": "Catherine mocks Juliana's husband, leaving her fate uncertain.",
+        "why_it_works": "The intense conflict and stakes immediately draw viewers in, while the unresolved tension keeps them wanting more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E046-C1",
+      "kind": "continuous",
+      "episode": "Episode 46",
+      "total_duration": 52.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 46",
+          "start_time": "01:29.30",
+          "end_time": "02:22.00",
+          "duration": 52.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The High Priest threatens a girl, asserting his power over her marriage.",
+        "cliffhanger_description": "Catherine whispers that ten days is plenty of time, hinting at her scheming.",
+        "why_it_works": "The intense power struggle and looming threat create immediate intrigue.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for the marriage dispute"
+        ]
+      },
+      "heuristic_prior": 0.6,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E038-C2",
+      "kind": "continuous",
+      "episode": "Episode 38",
+      "total_duration": 23.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 38",
+          "start_time": "00:16.00",
+          "end_time": "00:39.00",
+          "duration": 23.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana, bewildered, asks 'Why?' as the guard offers her bread.",
+        "cliffhanger_description": "Juliana whispers 'Alexander... are you safe?' leaving her fate uncertain.",
+        "why_it_works": "The emotional exchange and urgency create a strong connection, compelling viewers to learn more.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.764,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E012-C3",
+      "kind": "continuous",
+      "episode": "Episode 12",
+      "total_duration": 25.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 12",
+          "start_time": "00:26.80",
+          "end_time": "00:52.30",
+          "duration": 25.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana accuses Gerald of planting evidence, escalating the tension between the characters.",
+        "cliffhanger_description": "Clarissa reveals the sadistic challenge involving the signet ring, leaving Juliana's fate uncertain.",
+        "why_it_works": "The intense confrontation and high stakes create immediate intrigue for new viewers.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.596,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E011-C2",
+      "kind": "continuous",
+      "episode": "Episode 11",
+      "total_duration": 31.45,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 11",
+          "start_time": "01:21.30",
+          "end_time": "01:52.75",
+          "duration": 31.45,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald provocatively taunts the constable in front of his wife, setting a tense atmosphere.",
+        "cliffhanger_description": "Gerald triumphantly reveals a discovery that could ruin everything.",
+        "why_it_works": "The tension and stakes are high, drawing viewers into the conflict immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.6508,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E027-C3",
+      "kind": "continuous",
+      "episode": "Episode 27",
+      "total_duration": 33.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 27",
+          "start_time": "01:18.10",
+          "end_time": "01:51.80",
+          "duration": 33.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Catherine accuses Juliana of giving medicine to the Duchess without permission.",
+        "cliffhanger_description": "Lady Catherine provocatively asks, 'An antidote to what?'",
+        "why_it_works": "The tension of an accusation and the mystery of the antidote hook viewers immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E025-C1",
+      "kind": "continuous",
+      "episode": "Episode 25",
+      "total_duration": 34.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 25",
+          "start_time": "00:16.80",
+          "end_time": "00:51.20",
+          "duration": 34.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana insists her injury is 'nothing' as Alexander reveals a bloody welt on her shoulder.",
+        "cliffhanger_description": "Alexander demands to know why Juliana was inside Ashburg Manor, leaving the question unanswered.",
+        "why_it_works": "The intense confrontation and the revelation of a dangerous enemy create immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.684,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E015-C3",
+      "kind": "continuous",
+      "episode": "Episode 15",
+      "total_duration": 48.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 15",
+          "start_time": "00:07.60",
+          "end_time": "00:55.70",
+          "duration": 48.1,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana bursts through the cottage doorway, her hands wrapped in clean white bandages, freezing in horror at the destruction.",
+        "cliffhanger_description": "Juliana crawls forward on her elbows; fresh crimson blood seeps profusely through her white gauze bandages as she reaches for the ruined blossoms.",
+        "why_it_works": "The emotional stakes are high as Juliana fights for her mother's legacy, drawing viewers into her plight.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition-heavy opening"
+        ]
+      },
+      "heuristic_prior": 0.608,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E012-C2",
+      "kind": "continuous",
+      "episode": "Episode 12",
+      "total_duration": 52.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 12",
+          "start_time": "00:05.70",
+          "end_time": "00:58.00",
+          "duration": 52.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana fiercely defends Alexander against accusations of theft.",
+        "cliffhanger_description": "Clarissa demands Juliana retrieve a ring from dangerous briars or watch her husband hang.",
+        "why_it_works": "The intense confrontation and high stakes create immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in hook"
+        ]
+      },
+      "heuristic_prior": 0.62,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E013-C3",
+      "kind": "continuous",
+      "episode": "Episode 13",
+      "total_duration": 55.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 13",
+          "start_time": "00:51.50",
+          "end_time": "01:46.50",
+          "duration": 55.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana crawls forward on all fours, lowering her head under the jagged, arching thorns.",
+        "cliffhanger_description": "Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch.",
+        "why_it_works": "The intense physical struggle and emotional desperation create a gripping moment that compels viewers to find out what happens next.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in the hook"
+        ]
+      },
+      "heuristic_prior": 0.496,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.9
+    },
+    {
+      "candidate_id": "E024-S4",
+      "kind": "stitched",
+      "episode": "Episode 24",
+      "total_duration": 40.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 24",
+          "start_time": "00:32.50",
+          "end_time": "00:36.50",
+          "duration": 4.0,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 24",
+          "start_time": "00:53.60",
+          "end_time": "01:29.80",
+          "duration": 36.2,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The noblewoman strikes Juliana violently across the torso, asserting her dominance.",
+        "cliffhanger_description": "Juliana, with defiance in her eyes, vows to return as a healer, hinting at her hidden strength.",
+        "why_it_works": "The intense confrontation and Juliana's secret promise create immediate intrigue and tension.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 8.2,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.64,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.7
+    },
+    {
+      "candidate_id": "E042-C3",
+      "kind": "continuous",
+      "episode": "Episode 42",
+      "total_duration": 25.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 42",
+          "start_time": "00:16.80",
+          "end_time": "00:42.50",
+          "duration": 25.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "ALEXANDER (COLD, COMMANDING): \"And yet, here I stand. That is the lie you built your life upon.\"",
+        "cliffhanger_description": "ALEXANDER'S MOTHER (CHOKED WITH TEARS): \"Alexander...\"",
+        "why_it_works": "The confrontation and emotional weight create immediate intrigue and tension.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "exposition-heavy dialogue"
+        ]
+      },
+      "heuristic_prior": 0.608,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E002-C1",
+      "kind": "continuous",
+      "episode": "Episode 2",
+      "total_duration": 32.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 2",
+          "start_time": "00:00.00",
+          "end_time": "00:32.40",
+          "duration": 32.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The former groom coldly rejects Juliana at the altar, stating she is 'far too plain' and 'beneath' him.",
+        "cliffhanger_description": "Juliana's desperate plea to her father fades, leaving her fate uncertain.",
+        "why_it_works": "The emotional rejection and Juliana's heartbreak create immediate tension, compelling viewers to learn more.",
+        "hook_score": 9.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.744,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E019-C2",
+      "kind": "continuous",
+      "episode": "Episode 19",
+      "total_duration": 20.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 19",
+          "start_time": "01:05.10",
+          "end_time": "01:25.50",
+          "duration": 20.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "An informant reveals that Alexander's mother is being watched and imprisoned.",
+        "cliffhanger_description": "The informant questions what to do when they have proof, leaving the outcome uncertain.",
+        "why_it_works": "The tension of a mother's imprisonment and Alexander's cold resolve hooks viewers immediately.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.468,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E020-C3",
+      "kind": "continuous",
+      "episode": "Episode 20",
+      "total_duration": 20.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 20",
+          "start_time": "00:24.30",
+          "end_time": "00:44.90",
+          "duration": 20.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Rupert declares his claim to the title, setting a treacherous tone.",
+        "cliffhanger_description": "Catherine's vindictive remark hints at dark intentions regarding the Dowager.",
+        "why_it_works": "The tension between Rupert and Catherine creates intrigue about their plot.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "needs earlier episodes for context"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E003-C1",
+      "kind": "continuous",
+      "episode": "Episode 3",
+      "total_duration": 21.9,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 3",
+          "start_time": "01:24.00",
+          "end_time": "01:45.90",
+          "duration": 21.9,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A stranger intervenes to protect Juliana from guards, showcasing his strength and determination.",
+        "cliffhanger_description": "The Bearded Stranger's final words imply a deeper conflict regarding Juliana's treatment.",
+        "why_it_works": "The intense action and protective dialogue create immediate intrigue and emotional stakes.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.764,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E045-C3",
+      "kind": "continuous",
+      "episode": "Episode 45",
+      "total_duration": 23.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 45",
+          "start_time": "01:00.00",
+          "end_time": "01:23.00",
+          "duration": 23.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander confronts someone about hurting his loved ones and reveals Juliana as his wife.",
+        "cliffhanger_description": "Rupert gasps in shock at the revelation of Juliana's identity.",
+        "why_it_works": "The dramatic proclamation and emotional tension hook viewers immediately, while the cliffhanger leaves them wanting to know more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.576,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E034-C3",
+      "kind": "continuous",
+      "episode": "Episode 34",
+      "total_duration": 23.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 34",
+          "start_time": "01:48.00",
+          "end_time": "02:11.60",
+          "duration": 23.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Lord mocks Lady Juliana's claim of healing, setting up a confrontation.",
+        "cliffhanger_description": "The Judge challenges Lady Juliana about administering herbs without a physician's approval, leaving her fate uncertain.",
+        "why_it_works": "The intense courtroom drama and Lady Juliana's defiance create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E014-C3",
+      "kind": "continuous",
+      "episode": "Episode 14",
+      "total_duration": 24.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 14",
+          "start_time": "00:00.50",
+          "end_time": "00:25.00",
+          "duration": 24.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana reveals the emerald signet ring in her bloodied hand, declaring she found it and demanding her husband's release.",
+        "cliffhanger_description": "Alexander, trembling and heartbroken, questions what has been done to Juliana.",
+        "why_it_works": "The emotional stakes are high, drawing viewers in with a gripping moment of desperation and urgency.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.4593,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E013-C2",
+      "kind": "continuous",
+      "episode": "Episode 13",
+      "total_duration": 30.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 13",
+          "start_time": "00:47.20",
+          "end_time": "01:18.00",
+          "duration": 30.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "ALEXANDER screams for Juliana to stop as she crawls into the thorny garden.",
+        "cliffhanger_description": "Juliana drags her body across the frozen, cracked soil beneath the dense roof of briars.",
+        "why_it_works": "The intense physical struggle and emotional desperation create immediate tension, compelling viewers to find out what happens next.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.516,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E048-C1",
+      "kind": "continuous",
+      "episode": "Episode 48",
+      "total_duration": 31.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 48",
+          "start_time": "00:29.20",
+          "end_time": "01:00.60",
+          "duration": 31.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine commands Agnes to lock the door, revealing her fierce determination after public humiliation.",
+        "cliffhanger_description": "Agnes warns about the Duke's bailiffs, but Catherine insists on returning to the house, hinting at her secret plans.",
+        "why_it_works": "The tension of Catherine's plotting and the looming threat from the Duke creates an engaging cliffhanger.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E009-C1",
+      "kind": "continuous",
+      "episode": "Episode 9",
+      "total_duration": 32.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 9",
+          "start_time": "00:03.60",
+          "end_time": "00:35.80",
+          "duration": 32.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A frantic mother pleads for help with her sick child, creating immediate tension.",
+        "cliffhanger_description": "Alexander questions Juliana's certainty about the herbal remedies, leaving the outcome uncertain.",
+        "why_it_works": "The urgency of the mother's plea and the stakes of the child's illness hook viewers immediately.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear relationships between characters",
+          "context needed for herbal remedies and their significance"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E004-C1",
+      "kind": "continuous",
+      "episode": "Episode 4",
+      "total_duration": 34.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 4",
+          "start_time": "01:55.00",
+          "end_time": "02:29.00",
+          "duration": 34.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald angrily accuses Juliana of throwing her life away for a nobody.",
+        "cliffhanger_description": "Juliana and the Mysterious Bearded Man walk into the sunlight, leaving everything behind.",
+        "why_it_works": "The emotional confrontation and Juliana's defiance create a compelling narrative that draws viewers in.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.804,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E048-C2",
+      "kind": "continuous",
+      "episode": "Episode 48",
+      "total_duration": 36.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 48",
+          "start_time": "00:43.30",
+          "end_time": "01:20.00",
+          "duration": 36.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine confidently declares her intention to return to the house despite the Duke's watchful bailiffs.",
+        "cliffhanger_description": "Catherine's final command emphasizes the secrecy of her plans, leaving the audience questioning what will happen next.",
+        "why_it_works": "The tension of Catherine's secretive plotting against powerful adversaries hooks viewers immediately.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.52,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E036-C3",
+      "kind": "continuous",
+      "episode": "Episode 36",
+      "total_duration": 40.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 36",
+          "start_time": "00:00.80",
+          "end_time": "00:41.40",
+          "duration": 40.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander reveals the betrayal that led to his disappearance.",
+        "cliffhanger_description": "His mother is left shattered, questioning what happened after his disappearance.",
+        "why_it_works": "The intense emotional exchange and revelation of betrayal hook viewers immediately.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "unclear relationships",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E002-S4",
+      "kind": "stitched",
+      "episode": "Episode 2",
+      "total_duration": 44.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 2",
+          "start_time": "00:00.00",
+          "end_time": "00:06.50",
+          "duration": 6.5,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 2",
+          "start_time": "01:09.40",
+          "end_time": "01:47.40",
+          "duration": 38.0,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The former groom coldly rejects Juliana at the altar, calling her plain.",
+        "cliffhanger_description": "Juliana defiantly asserts her dignity and challenges Gerald's worth.",
+        "why_it_works": "A powerful rejection and a strong comeback create immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.0,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.736,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E016-C3",
+      "kind": "continuous",
+      "episode": "Episode 16",
+      "total_duration": 57.39,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 16",
+          "start_time": "00:25.80",
+          "end_time": "01:23.19",
+          "duration": 57.39,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A thug shouts in desperation as Alexander deflects an attack and counters with lethal force.",
+        "cliffhanger_description": "Juliana expresses astonishment at Alexander's fighting skills, hinting at a deeper connection.",
+        "why_it_works": "The intense action and emotional connection create a compelling reason to watch more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.648,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E050-C3",
+      "kind": "continuous",
+      "episode": "Episode 50",
+      "total_duration": 23.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 50",
+          "start_time": "00:01.80",
+          "end_time": "00:25.00",
+          "duration": 23.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine playfully teases Father Thomas about his stamina, setting a seductive tone.",
+        "cliffhanger_description": "Father Thomas demands control over the west territory in exchange for silence, raising the stakes.",
+        "why_it_works": "The tension of forbidden romance and a power play hooks viewers immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.4,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E020-C2",
+      "kind": "continuous",
+      "episode": "Episode 20",
+      "total_duration": 25.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 20",
+          "start_time": "00:02.90",
+          "end_time": "00:28.20",
+          "duration": 25.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine taunts Rupert about his newfound power, hinting at their scheming nature.",
+        "cliffhanger_description": "Catherine questions Rupert about the fate of the Dowager, leaving her fate uncertain.",
+        "why_it_works": "The tension between ambition and morality hooks viewers, while the cliffhanger raises stakes.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition-heavy opening"
+        ]
+      },
+      "heuristic_prior": 0.564,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E011-C3",
+      "kind": "continuous",
+      "episode": "Episode 11",
+      "total_duration": 26.9,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 11",
+          "start_time": "00:20.90",
+          "end_time": "00:47.80",
+          "duration": 26.9,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald coldly references a past visit, setting a tense confrontation.",
+        "cliffhanger_description": "Gerald taunts about hiding something, leaving the outcome uncertain.",
+        "why_it_works": "The escalating tension and accusation create immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition-heavy opening"
+        ]
+      },
+      "heuristic_prior": 0.608,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E025-C2",
+      "kind": "continuous",
+      "episode": "Episode 25",
+      "total_duration": 42.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 25",
+          "start_time": "02:05.80",
+          "end_time": "02:48.00",
+          "duration": 42.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander confronts Juliana about her silence regarding a poisoning.",
+        "cliffhanger_description": "Alexander demands to know everything she saw, leaving the audience in suspense.",
+        "why_it_works": "The emotional confrontation and the urgent need for answers create immediate tension.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.66,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E027-C2",
+      "kind": "continuous",
+      "episode": "Episode 27",
+      "total_duration": 50.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 27",
+          "start_time": "00:01.30",
+          "end_time": "00:51.50",
+          "duration": 50.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Dowager Duchess urgently demands to know who gave Juliana the ring, hinting at a deeper connection.",
+        "cliffhanger_description": "The doors burst open, interrupting the conversation, leaving the identity of Juliana's husband in suspense.",
+        "why_it_works": "The emotional intensity and sudden interruption create a compelling reason for viewers to want to know more.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition-heavy dialogue",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.692,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E026-C2",
+      "kind": "continuous",
+      "episode": "Episode 26",
+      "total_duration": 20.38,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 26",
+          "start_time": "01:40.50",
+          "end_time": "02:00.88",
+          "duration": 20.38,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana is alarmed by the Duchess's ghostly appearance and frantic behavior.",
+        "cliffhanger_description": "The Duchess demands to know where Juliana got the ring, leaving her identity in question.",
+        "why_it_works": "The intense confrontation and mystery around the ring create immediate intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.6312,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E047-C1",
+      "kind": "continuous",
+      "episode": "Episode 47",
+      "total_duration": 20.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 47",
+          "start_time": "01:24.00",
+          "end_time": "01:44.50",
+          "duration": 20.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander defends Juliana against Catherine's past actions.",
+        "cliffhanger_description": "Catherine is outraged at the idea of being treated as a scullery maid.",
+        "why_it_works": "The tension between Juliana and Catherine creates immediate intrigue about their relationship.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in the hook"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E031-C1",
+      "kind": "continuous",
+      "episode": "Episode 31",
+      "total_duration": 21.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 31",
+          "start_time": "02:18.40",
+          "end_time": "02:40.00",
+          "duration": 21.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana, in chains, desperately pleads for something to be returned to her.",
+        "cliffhanger_description": "Catherine threatens to destroy Juliana's mother's life's work with a red-hot iron.",
+        "why_it_works": "The intense emotional stakes and threat of destruction create immediate tension and intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.6452,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E045-C1",
+      "kind": "continuous",
+      "episode": "Episode 45",
+      "total_duration": 23.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 45",
+          "start_time": "00:22.90",
+          "end_time": "00:46.00",
+          "duration": 23.1,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana is shocked to learn Alexander is the Duke.",
+        "cliffhanger_description": "An ecclesiastical authority bursts in to declare their marriage invalid.",
+        "why_it_works": "The emotional revelation and impending conflict create strong viewer interest.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E021-C2",
+      "kind": "continuous",
+      "episode": "Episode 21",
+      "total_duration": 29.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 21",
+          "start_time": "01:12.00",
+          "end_time": "01:41.20",
+          "duration": 29.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Prudence expresses overwhelming relief that Toby's condition has improved, highlighting the effectiveness of Lady Juliana's remedies.",
+        "cliffhanger_description": "Prudence ominously reveals that the Dowager Duchess is dying, leaving Lady Juliana shocked and curious.",
+        "why_it_works": "The emotional stakes are high, and the cliffhanger introduces a new mystery that compels viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.564,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E042-C2",
+      "kind": "continuous",
+      "episode": "Episode 42",
+      "total_duration": 29.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 42",
+          "start_time": "00:48.00",
+          "end_time": "01:17.50",
+          "duration": 29.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander's mother cradles his cheek, tears streaming down her face as she recognizes him.",
+        "cliffhanger_description": "Alexander confronts Rupert, declaring they will settle what was stolen.",
+        "why_it_works": "The emotional reunion and the declaration of rightful Duke create immediate stakes and intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in the hook"
+        ]
+      },
+      "heuristic_prior": 0.676,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E003-C3",
+      "kind": "continuous",
+      "episode": "Episode 3",
+      "total_duration": 34.85,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 3",
+          "start_time": "01:50.90",
+          "end_time": "02:25.75",
+          "duration": 34.85,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana, bewildered, asks the stranger why he's doing this, setting up a moment of tension.",
+        "cliffhanger_description": "The Bearded Stranger kneels and offers a ring, asking Lady Juliana to accept his hand, leaving her emotional and the outcome uncertain.",
+        "why_it_works": "The unexpected proposal from a mysterious stranger creates intrigue and emotional depth, compelling viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in hook"
+        ]
+      },
+      "heuristic_prior": 0.636,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E037-C2",
+      "kind": "continuous",
+      "episode": "Episode 37",
+      "total_duration": 39.27,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 37",
+          "start_time": "01:57.20",
+          "end_time": "02:36.47",
+          "duration": 39.27,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A nobleman questions the likelihood of Juliana's execution, setting a tense tone.",
+        "cliffhanger_description": "Lady Clarissa chillingly proclaims the consequences of Juliana's defiance, leaving the audience in suspense.",
+        "why_it_works": "The dialogue builds tension around Juliana's fate, enticing viewers with the stakes of her defiance.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.5408,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E007-C1",
+      "kind": "continuous",
+      "episode": "Episode 7",
+      "total_duration": 47.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 7",
+          "start_time": "00:22.00",
+          "end_time": "01:09.50",
+          "duration": 47.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald mocks Juliana's living situation, questioning her choices.",
+        "cliffhanger_description": "Gerald threatens to make Juliana's husband disappear, leaving her vulnerable.",
+        "why_it_works": "The tension between Juliana and her antagonists sets up a compelling conflict.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition",
+          "unclear relationships"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.5
+    },
+    {
+      "candidate_id": "E050-S4",
+      "kind": "stitched",
+      "episode": "Episode 50",
+      "total_duration": 42.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 50",
+          "start_time": "00:01.80",
+          "end_time": "00:05.80",
+          "duration": 4.0,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 50",
+          "start_time": "00:40.40",
+          "end_time": "01:18.50",
+          "duration": 38.1,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine playfully teases Father Thomas about his stamina, hinting at their illicit affair.",
+        "cliffhanger_description": "Agnes witnesses the scandalous embrace, leaving the audience in shock and wanting to know what happens next.",
+        "why_it_works": "The tension of forbidden love and the shocking discovery creates an irresistible draw for viewers.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.616,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.3
+    },
+    {
+      "candidate_id": "E021-S4",
+      "kind": "stitched",
+      "episode": "Episode 21",
+      "total_duration": 42.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 21",
+          "start_time": "00:31.00",
+          "end_time": "00:35.80",
+          "duration": 4.8,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 21",
+          "start_time": "01:16.00",
+          "end_time": "01:54.00",
+          "duration": 38.0,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Prudence pleads desperately for Lady Juliana to save a sick boy, emphasizing the urgency of the situation.",
+        "cliffhanger_description": "Prudence ominously reveals that the Dowager Duchess is dying from a mysterious illness, leaving Lady Juliana in shock.",
+        "why_it_works": "The emotional plea and shocking revelation create a compelling narrative that draws viewers in.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.66,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.3
+    },
+    {
+      "candidate_id": "E043-S4",
+      "kind": "stitched",
+      "episode": "Episode 43",
+      "total_duration": 43.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 43",
+          "start_time": "00:18.10",
+          "end_time": "00:21.50",
+          "duration": 3.4,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 43",
+          "start_time": "01:12.80",
+          "end_time": "01:52.50",
+          "duration": 39.7,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A royal guard asserts Alexander's rightful title against Rupert's frantic orders.",
+        "cliffhanger_description": "A police constable confronts Lord Sterling, leaving his fate uncertain.",
+        "why_it_works": "The tension of a power struggle and the looming threat of treason will intrigue viewers.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.836,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.3
+    },
+    {
+      "candidate_id": "E001-S4",
+      "kind": "stitched",
+      "episode": "Episode 1",
+      "total_duration": 46.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 1",
+          "start_time": "01:06.50",
+          "end_time": "01:14.30",
+          "duration": 7.8,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 1",
+          "start_time": "01:38.80",
+          "end_time": "02:17.00",
+          "duration": 38.2,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady in gold gown mocks Juliana about changing minds, revealing betrayal.",
+        "cliffhanger_description": "Juliana's worth is questioned, and the former groom dismisses her completely.",
+        "why_it_works": "The emotional intensity and betrayal hook viewers, while the unresolved tension keeps them wanting more.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.744,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.3
+    },
+    {
+      "candidate_id": "E028-S4",
+      "kind": "stitched",
+      "episode": "Episode 28",
+      "total_duration": 46.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 28",
+          "start_time": "00:40.30",
+          "end_time": "00:48.00",
+          "duration": 7.7,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 28",
+          "start_time": "01:38.20",
+          "end_time": "02:16.70",
+          "duration": 38.5,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Dowager Duchess accuses Catherine of betrayal, gasping out her last words before collapsing.",
+        "cliffhanger_description": "Catherine threatens Juliana with the gallows, leaving her fate uncertain.",
+        "why_it_works": "The intense confrontation and looming threat create immediate intrigue and tension.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.696,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.3
+    },
+    {
+      "candidate_id": "E004-C3",
+      "kind": "continuous",
+      "episode": "Episode 4",
+      "total_duration": 24.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 4",
+          "start_time": "00:03.40",
+          "end_time": "00:27.70",
+          "duration": 24.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald mocks Juliana for choosing a penniless man as her husband.",
+        "cliffhanger_description": "Juliana questions the warrior's motives for offering her his name.",
+        "why_it_works": "The emotional conflict and mockery create immediate tension, drawing viewers in.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.648,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.2
+    },
+    {
+      "candidate_id": "E001-C2",
+      "kind": "continuous",
+      "episode": "Episode 1",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 1",
+          "start_time": "01:57.00",
+          "end_time": "02:17.00",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana confronts her fiancé about her worth.",
+        "cliffhanger_description": "Juliana's hand clenches in fury, hinting at her emotional turmoil.",
+        "why_it_works": "The intense emotional confrontation draws viewers in, promising drama and conflict.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.684,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E018-C2",
+      "kind": "continuous",
+      "episode": "Episode 18",
+      "total_duration": 21.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 18",
+          "start_time": "00:06.50",
+          "end_time": "00:28.00",
+          "duration": 21.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana screams for Alexander as she sees the orange glow of fire under the door.",
+        "cliffhanger_description": "Juliana, breathless and distressed, asks, 'What happened?'",
+        "why_it_works": "The intense urgency and fear immediately draw viewers in, while the cliffhanger leaves them wanting to know the outcome.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E018-C3",
+      "kind": "continuous",
+      "episode": "Episode 18",
+      "total_duration": 20.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 18",
+          "start_time": "02:51.80",
+          "end_time": "03:12.00",
+          "duration": 20.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander expresses his determination to protect what remains after their home is destroyed.",
+        "cliffhanger_description": "Juliana's apprehensive question leaves the audience wondering about Alexander's next move.",
+        "why_it_works": "The emotional stakes are high, and the promise of vengeance intrigues viewers.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.487,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E043-C3",
+      "kind": "continuous",
+      "episode": "Episode 43",
+      "total_duration": 38.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 43",
+          "start_time": "00:18.10",
+          "end_time": "00:56.50",
+          "duration": 38.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A desperate nobleman insists on the Duke's arrest, but the royal guard firmly asserts his authority.",
+        "cliffhanger_description": "The nobleman whispers in terror as the implications of the treasonous plot unfold.",
+        "why_it_works": "The tension of a power struggle and the revelation of treachery hook viewers immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.668,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E038-C1",
+      "kind": "continuous",
+      "episode": "Episode 38",
+      "total_duration": 39.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 38",
+          "start_time": "00:47.80",
+          "end_time": "01:27.00",
+          "duration": 39.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses her heartbreak and determination not to betray her husband.",
+        "cliffhanger_description": "Juliana realizes the wedding is starting, hinting at her impending execution.",
+        "why_it_works": "The emotional stakes are high, drawing viewers into Juliana's plight and her fierce loyalty.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.896,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E047-C2",
+      "kind": "continuous",
+      "episode": "Episode 47",
+      "total_duration": 47.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 47",
+          "start_time": "01:24.00",
+          "end_time": "02:11.20",
+          "duration": 47.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander confronts Juliana about Catherine's past actions against her.",
+        "cliffhanger_description": "Catherine, humiliated, reluctantly accepts Juliana's terms for survival.",
+        "why_it_works": "The tension between Juliana and Catherine creates immediate intrigue about their relationship.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition in hook"
+        ]
+      },
+      "heuristic_prior": 0.54,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E010-C1",
+      "kind": "continuous",
+      "episode": "Episode 10",
+      "total_duration": 44.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 10",
+          "start_time": "00:49.70",
+          "end_time": "01:34.00",
+          "duration": 44.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana gently questions Alexander about his scars, hinting at deeper emotions.",
+        "cliffhanger_description": "Alexander reveals that Juliana's touch is the only thing that eases his pain, leaving their relationship unresolved.",
+        "why_it_works": "The intimate dialogue and emotional tension draw viewers in, making them curious about the characters' backstory.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.6,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.6,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.1
+    },
+    {
+      "candidate_id": "E016-C2",
+      "kind": "continuous",
+      "episode": "Episode 16",
+      "total_duration": 28.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 16",
+          "start_time": "00:25.80",
+          "end_time": "00:54.40",
+          "duration": 28.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A thug shouts in desperation as Alexander deflects an attack and counters with force.",
+        "cliffhanger_description": "Juliana is shaken as she learns Gerald Harrington is behind the attack.",
+        "why_it_works": "The intense action and shocking reveal create immediate intrigue and emotional stakes.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 6.0,
+        "composite_score": 8.0,
+        "failure_flags": [
+          "unclear character relationships",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 6.0
+    },
+    {
+      "candidate_id": "E049-S4",
+      "kind": "stitched",
+      "episode": "Episode 49",
+      "total_duration": 43.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 49",
+          "start_time": "00:27.80",
+          "end_time": "00:33.00",
+          "duration": 5.2,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 49",
+          "start_time": "01:44.20",
+          "end_time": "02:22.50",
+          "duration": 38.3,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine asserts her control over secrets, hinting at a deeper conspiracy.",
+        "cliffhanger_description": "Father Thomas questions the consequences of their treasonous alliance, leaving his fate uncertain.",
+        "why_it_works": "The tension of a dangerous alliance and the stakes of treason hook viewers immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.52,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.9
+    },
+    {
+      "candidate_id": "E022-C2",
+      "kind": "continuous",
+      "episode": "Episode 22",
+      "total_duration": 28.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 22",
+          "start_time": "00:56.00",
+          "end_time": "01:24.50",
+          "duration": 28.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Housekeeper threatens Lady Juliana, demanding she keep her eyes and ears in check.",
+        "cliffhanger_description": "Lady Juliana urgently asks where the West Wing is, hinting at her secret mission.",
+        "why_it_works": "The tension from the Housekeeper's threat and Juliana's urgent question creates immediate intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.8
+    },
+    {
+      "candidate_id": "E023-C3",
+      "kind": "continuous",
+      "episode": "Episode 23",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 23",
+          "start_time": "00:58.50",
+          "end_time": "01:18.50",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana reveals alarming symptoms of poisoning.",
+        "cliffhanger_description": "Prudence is left panicked and shaken, demanding to know more.",
+        "why_it_works": "The urgency and revelation of poisoning create immediate tension and intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E032-C3",
+      "kind": "continuous",
+      "episode": "Episode 32",
+      "total_duration": 20.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 32",
+          "start_time": "00:16.20",
+          "end_time": "00:36.50",
+          "duration": 20.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine threatens Juliana with a cruel farewell to her mother, setting a tense tone.",
+        "cliffhanger_description": "Catherine questions Juliana's worth, leaving the audience wondering about the outcome of their confrontation.",
+        "why_it_works": "The emotional confrontation and defiance create a compelling moment that draws viewers in.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.624,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E030-C3",
+      "kind": "continuous",
+      "episode": "Episode 30",
+      "total_duration": 20.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 30",
+          "start_time": "01:23.20",
+          "end_time": "01:43.90",
+          "duration": 20.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine questions the implications of Juliana claiming to be a healer, leading to a sinister plot.",
+        "cliffhanger_description": "Catherine mentions Juliana's botanical ledger, hinting at a deeper scheme.",
+        "why_it_works": "The dialogue sets up a dark conspiracy that intrigues viewers with its stakes.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E014-C2",
+      "kind": "continuous",
+      "episode": "Episode 14",
+      "total_duration": 21.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 14",
+          "start_time": "00:10.50",
+          "end_time": "00:32.00",
+          "duration": 21.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana commands the Constable to release her husband, showing her strength and urgency.",
+        "cliffhanger_description": "Juliana pleads to be taken home, hinting at her pain and the need for safety.",
+        "why_it_works": "The emotional intensity and urgency in Juliana's command and Alexander's concern create a gripping moment that draws viewers in.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.46,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E015-C2",
+      "kind": "continuous",
+      "episode": "Episode 15",
+      "total_duration": 23.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 15",
+          "start_time": "00:07.60",
+          "end_time": "00:31.20",
+          "duration": 23.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana bursts through the cottage doorway, horrified at the destruction of her garden.",
+        "cliffhanger_description": "The tall thug mocks Juliana's efforts, escalating the tension.",
+        "why_it_works": "The emotional stakes are high as Juliana fights for her mother's legacy against ruthless thugs.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E016-C1",
+      "kind": "continuous",
+      "episode": "Episode 16",
+      "total_duration": 24.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 16",
+          "start_time": "00:13.10",
+          "end_time": "00:37.80",
+          "duration": 24.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Alexander calmly tells Juliana to stay behind him as a thug roars and attacks.",
+        "cliffhanger_description": "Juliana, breathless and overwhelmed, calls out Alexander's name, leaving her fate uncertain.",
+        "why_it_works": "The intense action and protective dynamic create immediate tension, drawing viewers in.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E012-C1",
+      "kind": "continuous",
+      "episode": "Episode 12",
+      "total_duration": 25.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 12",
+          "start_time": "00:05.70",
+          "end_time": "00:31.00",
+          "duration": 25.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana fiercely defends Alexander against accusations of theft.",
+        "cliffhanger_description": "Clarissa taunts Juliana about her husband's worthlessness, leaving tension unresolved.",
+        "why_it_works": "The intense confrontation and emotional stakes draw viewers in immediately.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E011-C1",
+      "kind": "continuous",
+      "episode": "Episode 11",
+      "total_duration": 26.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 11",
+          "start_time": "00:58.00",
+          "end_time": "01:24.00",
+          "duration": 26.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana pleads desperately about her mother's medicines as the Constable throws linens on the floor.",
+        "cliffhanger_description": "Gerald provocatively questions the Constable's intentions in front of his wife.",
+        "why_it_works": "The emotional plea and escalating tension create immediate intrigue and conflict.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E022-C3",
+      "kind": "continuous",
+      "episode": "Episode 22",
+      "total_duration": 31.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 22",
+          "start_time": "00:11.20",
+          "end_time": "00:42.50",
+          "duration": 31.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana asserts her disguise as a maid, emphasizing her determination to save the Duchess.",
+        "cliffhanger_description": "The scene ends with the door shutting behind them, leaving their fate uncertain.",
+        "why_it_works": "The tension of a noblewoman risking everything to save another creates immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.496,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E034-C2",
+      "kind": "continuous",
+      "episode": "Episode 34",
+      "total_duration": 42.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 34",
+          "start_time": "00:33.20",
+          "end_time": "01:15.50",
+          "duration": 42.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana boldly admits to healing the sick, setting a defiant tone.",
+        "cliffhanger_description": "The judge presses for more incriminating details about Lady Juliana's actions.",
+        "why_it_works": "The tension of a witch trial and Juliana's defiance creates immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E030-C1",
+      "kind": "continuous",
+      "episode": "Episode 30",
+      "total_duration": 45.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 30",
+          "start_time": "01:03.10",
+          "end_time": "01:48.80",
+          "duration": 45.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Rupert questions the law regarding a maid's possession of herbs, setting up a dark scheme.",
+        "cliffhanger_description": "Catherine inquires about the Dowager, leaving the audience wondering about her fate.",
+        "why_it_works": "The tension of framing an innocent woman for witchcraft hooks viewers into the intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E010-C2",
+      "kind": "continuous",
+      "episode": "Episode 10",
+      "total_duration": 48.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 10",
+          "start_time": "00:05.10",
+          "end_time": "00:53.30",
+          "duration": 48.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana urgently confronts Alexander about his injury, revealing her concern.",
+        "cliffhanger_description": "Juliana questions Alexander about his pain, hinting at deeper emotional scars.",
+        "why_it_works": "The tension between Juliana and Alexander draws viewers in, promising emotional depth.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "emotion fades without clear stakes"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E050-C1",
+      "kind": "continuous",
+      "episode": "Episode 50",
+      "total_duration": 54.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 50",
+          "start_time": "00:01.80",
+          "end_time": "00:56.50",
+          "duration": 54.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine playfully teases Father Thomas about his stamina, hinting at their forbidden relationship.",
+        "cliffhanger_description": "Catherine's last line suggests a secretive rendezvous, leaving the viewer curious about the implications of their actions.",
+        "why_it_works": "The tension of their illicit relationship and the stakes of their negotiation create immediate intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition-heavy dialogue"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E017-C3",
+      "kind": "continuous",
+      "episode": "Episode 17",
+      "total_duration": 20.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 17",
+          "start_time": "00:09.30",
+          "end_time": "00:30.00",
+          "duration": 20.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses gratitude for Alexander's protection after a traumatic event.",
+        "cliffhanger_description": "Alexander vows to protect Juliana, implying a looming threat.",
+        "why_it_works": "The emotional intensity and promise of protection draw viewers in, hinting at deeper stakes.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.484,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E047-C3",
+      "kind": "continuous",
+      "episode": "Episode 47",
+      "total_duration": 21.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 47",
+          "start_time": "00:27.00",
+          "end_time": "00:48.00",
+          "duration": 21.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses fear about losing Alexander's title due to her status as a healer.",
+        "cliffhanger_description": "Alexander asserts their bond will withstand any challenge, promising to reaffirm their marriage soon.",
+        "why_it_works": "The emotional stakes are high, showcasing a powerful relationship amidst external pressures.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.48,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E044-C3",
+      "kind": "continuous",
+      "episode": "Episode 44",
+      "total_duration": 21.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 44",
+          "start_time": "00:25.20",
+          "end_time": "00:46.40",
+          "duration": 21.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine expresses her deep emotional pain and longing for Alexander, revealing her belief that he was dead.",
+        "cliffhanger_description": "Catherine's hurt question, 'You don't remember?' leaves the audience wondering about their past connection.",
+        "why_it_works": "The emotional intensity and unresolved feelings create a compelling reason for viewers to want to learn more about their relationship.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E010-C3",
+      "kind": "continuous",
+      "episode": "Episode 10",
+      "total_duration": 21.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 10",
+          "start_time": "00:49.70",
+          "end_time": "01:10.90",
+          "duration": 21.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana questions Alexander about his scars, hinting at deeper emotions.",
+        "cliffhanger_description": "Juliana's flustered response suggests a moment of vulnerability and tension.",
+        "why_it_works": "The intimate dialogue creates emotional tension that draws viewers in.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E049-C2",
+      "kind": "continuous",
+      "episode": "Episode 49",
+      "total_duration": 21.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 49",
+          "start_time": "01:31.60",
+          "end_time": "01:52.80",
+          "duration": 21.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Father Thomas questions Catherine's request for inside information.",
+        "cliffhanger_description": "Father Thomas weighs the consequences of their conspiracy against the Duke.",
+        "why_it_works": "The tension between characters and the stakes of betrayal create immediate intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character motivations"
+        ]
+      },
+      "heuristic_prior": 0.5847,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E033-C3",
+      "kind": "continuous",
+      "episode": "Episode 33",
+      "total_duration": 21.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 33",
+          "start_time": "02:18.00",
+          "end_time": "02:39.50",
+          "duration": 21.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A maid is tormented and denies accusing someone of witchcraft.",
+        "cliffhanger_description": "The maid collapses in despair, apologizing to Lady Juliana.",
+        "why_it_works": "The emotional intensity and stakes of the maid's situation draw viewers in immediately.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E038-C3",
+      "kind": "continuous",
+      "episode": "Episode 38",
+      "total_duration": 21.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 38",
+          "start_time": "00:26.00",
+          "end_time": "00:47.50",
+          "duration": 21.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses gratitude while clutching bread, tears in her eyes.",
+        "cliffhanger_description": "Juliana pleads, questioning if Alexander knows about her condemnation and fears for her life.",
+        "why_it_works": "The emotional weight of Juliana's desperation and the stakes of her situation draw viewers in.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.684,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E008-C3",
+      "kind": "continuous",
+      "episode": "Episode 8",
+      "total_duration": 21.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 8",
+          "start_time": "00:15.10",
+          "end_time": "00:36.90",
+          "duration": 21.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana asks Alexander how he knows about healing plants, hinting at a deeper connection.",
+        "cliffhanger_description": "Juliana's puzzled reaction to Alexander's firm refusal to let her trim his hair suggests unresolved tension.",
+        "why_it_works": "The dialogue hints at a rich backstory and emotional depth, enticing viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.608,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E022-C1",
+      "kind": "continuous",
+      "episode": "Episode 22",
+      "total_duration": 26.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 22",
+          "start_time": "00:43.00",
+          "end_time": "01:09.50",
+          "duration": 26.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Housekeeper questions Lady Juliana's capabilities as a maid, setting a tense atmosphere.",
+        "cliffhanger_description": "The Housekeeper's menacing question leaves the viewer wondering about the stakes of Lady Juliana's disguise.",
+        "why_it_works": "The tension of the Housekeeper's scrutiny and the threat of exposure hooks viewers immediately.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E007-C2",
+      "kind": "continuous",
+      "episode": "Episode 7",
+      "total_duration": 29.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 7",
+          "start_time": "01:26.50",
+          "end_time": "01:56.00",
+          "duration": 29.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Gerald is trembling and trying to save face while facing a silent glare.",
+        "cliffhanger_description": "The Scarred Bearded Man's confident response leaves the tension unresolved.",
+        "why_it_works": "The silent strength of the Scarred Bearded Man intrigues viewers, hinting at deeper conflicts.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.54,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E018-C1",
+      "kind": "continuous",
+      "episode": "Episode 18",
+      "total_duration": 46.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 18",
+          "start_time": "02:25.80",
+          "end_time": "03:12.00",
+          "duration": 46.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana, trembling and anguished, questions why anyone would set their cottage ablaze.",
+        "cliffhanger_description": "Juliana, trembling, asks Alexander what he is going to do.",
+        "why_it_works": "The emotional intensity and the promise of vengeance create a compelling narrative hook.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.5979,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E008-C1",
+      "kind": "continuous",
+      "episode": "Episode 8",
+      "total_duration": 47.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 8",
+          "start_time": "00:15.10",
+          "end_time": "01:02.80",
+          "duration": 47.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana asks Alexander how he knows about healing plants, hinting at his past as a soldier.",
+        "cliffhanger_description": "Juliana inquires about Alexander's scars, suggesting a deeper story behind them.",
+        "why_it_works": "The dialogue hints at a rich backstory and emotional connection, enticing viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.704,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E023-C2",
+      "kind": "continuous",
+      "episode": "Episode 23",
+      "total_duration": 48.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 23",
+          "start_time": "00:13.50",
+          "end_time": "01:02.00",
+          "duration": 48.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana questions how long the Duchess has been unwell, revealing urgency and concern.",
+        "cliffhanger_description": "Prudence asks what Lady Juliana has realized, leaving the audience in suspense about the revelation.",
+        "why_it_works": "The tension builds around a potential poisoning, compelling viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.5816,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E006-C1",
+      "kind": "continuous",
+      "episode": "Episode 6",
+      "total_duration": 49.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 6",
+          "start_time": "00:56.40",
+          "end_time": "01:46.00",
+          "duration": 49.6,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses her feelings about her new home, revealing a mix of contentment and loss.",
+        "cliffhanger_description": "Juliana reflects on her profound losses but hints at a surprising acceptance.",
+        "why_it_works": "The emotional depth and vulnerability of Juliana's character invite viewers to explore her journey.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E004-C2",
+      "kind": "continuous",
+      "episode": "Episode 4",
+      "total_duration": 53.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 4",
+          "start_time": "00:32.10",
+          "end_time": "01:25.80",
+          "duration": 53.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana questions the mysterious man about his perception of her, revealing her vulnerability.",
+        "cliffhanger_description": "The priest hesitates, asking Juliana if she is certain about her decision, leaving her choice unresolved.",
+        "why_it_works": "The emotional tension and the stakes of Juliana's decision create a compelling moment that draws viewers in.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E044-C2",
+      "kind": "continuous",
+      "episode": "Episode 44",
+      "total_duration": 53.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 44",
+          "start_time": "00:14.00",
+          "end_time": "01:07.80",
+          "duration": 53.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A frantic nobleman is being restrained, shouting for Catherine to help him.",
+        "cliffhanger_description": "Alexander questions Catherine's love, leaving her in emotional turmoil.",
+        "why_it_works": "The intense emotional conflict and rejection create a compelling reason to watch more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "exposition",
+          "unclear relationships"
+        ]
+      },
+      "heuristic_prior": 0.668,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E002-C3",
+      "kind": "continuous",
+      "episode": "Episode 2",
+      "total_duration": 55.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 2",
+          "start_time": "00:24.00",
+          "end_time": "01:19.00",
+          "duration": 55.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana questions if her sister is a better choice for Gerald.",
+        "cliffhanger_description": "Juliana accuses Gerald of abandoning her trust.",
+        "why_it_works": "The emotional turmoil and betrayal in the opening lines draw viewers in, while the accusation at the end leaves them wanting to know more about the fallout.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E017-C1",
+      "kind": "continuous",
+      "episode": "Episode 17",
+      "total_duration": 59.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 17",
+          "start_time": "00:56.50",
+          "end_time": "01:56.00",
+          "duration": 59.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses her fear of losing Alexander, revealing her vulnerability.",
+        "cliffhanger_description": "Juliana reflects on her marriage, hinting at deeper trust issues.",
+        "why_it_works": "The emotional connection and vulnerability draw viewers in, while the reflection on trust creates intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.7
+    },
+    {
+      "candidate_id": "E029-C2",
+      "kind": "continuous",
+      "episode": "Episode 29",
+      "total_duration": 24.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 29",
+          "start_time": "01:24.00",
+          "end_time": "01:48.80",
+          "duration": 24.8,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana is violently thrown into a cell, crying out for help.",
+        "cliffhanger_description": "Juliana laments the loss of her mother's ledger, hinting at deeper stakes.",
+        "why_it_works": "The emotional turmoil and desperation create an immediate connection with viewers.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 5.6,
+        "failure_flags": [
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.656,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.6
+    },
+    {
+      "candidate_id": "E017-S4",
+      "kind": "stitched",
+      "episode": "Episode 17",
+      "total_duration": 41.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 17",
+          "start_time": "00:24.00",
+          "end_time": "00:27.70",
+          "duration": 3.7,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 17",
+          "start_time": "01:18.50",
+          "end_time": "01:56.00",
+          "duration": 37.5,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana questions Alexander's bravery against multiple attackers, and he vows to protect her with his life.",
+        "cliffhanger_description": "Juliana reflects on her marriage, realizing she knows little about Alexander but trusts him more each day.",
+        "why_it_works": "The emotional connection and tension in their relationship draws viewers in, while the cliffhanger leaves their future uncertain.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E050-C2",
+      "kind": "continuous",
+      "episode": "Episode 50",
+      "total_duration": 25.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 50",
+          "start_time": "00:31.00",
+          "end_time": "00:56.50",
+          "duration": 25.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Father Thomas makes a chilling statement about discretion and price.",
+        "cliffhanger_description": "Catherine hints at their ongoing secret relationship, leaving the stakes unclear.",
+        "why_it_works": "The tension between characters and the hint of scandal create intrigue.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 6.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition"
+        ]
+      },
+      "heuristic_prior": 0.468,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E044-S4",
+      "kind": "stitched",
+      "episode": "Episode 44",
+      "total_duration": 34.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 44",
+          "start_time": "00:28.40",
+          "end_time": "00:32.40",
+          "duration": 4.0,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 44",
+          "start_time": "00:38.90",
+          "end_time": "01:09.60",
+          "duration": 30.7,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine pleads with Alexander, revealing her deep emotional pain.",
+        "cliffhanger_description": "Alexander coldly rejects Catherine and walks away toward his chained bride, leaving her in despair.",
+        "why_it_works": "The emotional intensity and unresolved rejection create a compelling reason for viewers to want to see more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.62,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E046-S4",
+      "kind": "stitched",
+      "episode": "Episode 46",
+      "total_duration": 43.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 46",
+          "start_time": "00:42.80",
+          "end_time": "00:49.00",
+          "duration": 6.2,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 46",
+          "start_time": "01:47.00",
+          "end_time": "02:23.80",
+          "duration": 36.8,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The High Priest declares the wedding invalid due to lack of a royal license.",
+        "cliffhanger_description": "Catherine whispers that ten days is plenty of time, hinting at her scheming.",
+        "why_it_works": "The tension of a wedding being invalidated and a looming trial creates immediate stakes.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition in hook",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.64,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E034-S4",
+      "kind": "stitched",
+      "episode": "Episode 34",
+      "total_duration": 45.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 34",
+          "start_time": "00:35.40",
+          "end_time": "00:43.00",
+          "duration": 7.6,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 34",
+          "start_time": "02:31.80",
+          "end_time": "03:10.00",
+          "duration": 38.2,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Judge furiously raises his wooden gavel and strikes the sound block with sharp force, demanding silence in the courtroom.",
+        "cliffhanger_description": "The Judge extends his raised hand high in judgment over Lady Juliana as the scene holds on her standing still and unbroken before fading to black.",
+        "why_it_works": "The intense courtroom drama and Lady Juliana's defiance create a gripping moment that compels viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.728,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E009-C2",
+      "kind": "continuous",
+      "episode": "Episode 9",
+      "total_duration": 20.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 9",
+          "start_time": "01:35.30",
+          "end_time": "01:55.50",
+          "duration": 20.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The Blond Nobleman dismisses rumors about a ghost, showing arrogance.",
+        "cliffhanger_description": "The Blond Nobleman whispers 'Impossible,' hinting at deeper fears.",
+        "why_it_works": "The tension builds around the nobleman's fear of a rumor that could threaten him.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 8.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 6.0,
+        "failure_flags": [
+          "needs earlier episodes",
+          "unclear character motivations"
+        ]
+      },
+      "heuristic_prior": 0.64,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.5
+    },
+    {
+      "candidate_id": "E045-S4",
+      "kind": "stitched",
+      "episode": "Episode 45",
+      "total_duration": 40.05,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 45",
+          "start_time": "00:22.90",
+          "end_time": "00:29.60",
+          "duration": 6.7,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 45",
+          "start_time": "01:28.40",
+          "end_time": "02:01.75",
+          "duration": 33.35,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana is shocked to learn Alexander is the Duke of Ashburton.",
+        "cliffhanger_description": "The High Priest declares Juliana is not Alexander's lawful wife, leaving her in panic.",
+        "why_it_works": "The dramatic reveal of identity and the shocking legal invalidation create immediate tension.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.66,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.4
+    },
+    {
+      "candidate_id": "E014-S4",
+      "kind": "stitched",
+      "episode": "Episode 14",
+      "total_duration": 42.8,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 14",
+          "start_time": "00:10.50",
+          "end_time": "00:13.50",
+          "duration": 3.0,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 14",
+          "start_time": "00:47.20",
+          "end_time": "01:27.00",
+          "duration": 39.8,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana demands the release of her husband, showcasing her strength and determination.",
+        "cliffhanger_description": "Alexander vows that no one will ever hurt Juliana again, hinting at future conflict.",
+        "why_it_works": "The emotional stakes and protective vow create a compelling reason for viewers to want to see more.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.4,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.676,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.4
+    },
+    {
+      "candidate_id": "E009-C3",
+      "kind": "continuous",
+      "episode": "Episode 9",
+      "total_duration": 38.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 9",
+          "start_time": "00:15.50",
+          "end_time": "00:54.00",
+          "duration": 38.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana reassures the anxious mother about her critically ill child.",
+        "cliffhanger_description": "The mother, in despair, questions why the remedy isn't working.",
+        "why_it_works": "The emotional stakes are high as a mother pleads for her child's life, drawing viewers in.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.4,
+        "failure_flags": [
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.4
+    },
+    {
+      "candidate_id": "E006-C2",
+      "kind": "continuous",
+      "episode": "Episode 6",
+      "total_duration": 20.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 6",
+          "start_time": "00:07.20",
+          "end_time": "00:27.70",
+          "duration": 20.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A mysterious man acknowledges Juliana's difficult transition to her new life.",
+        "cliffhanger_description": "Juliana expresses surprise at the cottage, hinting at deeper feelings.",
+        "why_it_works": "The emotional exchange sets up intrigue about Juliana's past and her new life.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.468,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E001-C3",
+      "kind": "continuous",
+      "episode": "Episode 1",
+      "total_duration": 25.1,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 1",
+          "start_time": "01:13.10",
+          "end_time": "01:38.20",
+          "duration": 25.1,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana asks her father how long he knew about her fiancé's betrayal.",
+        "cliffhanger_description": "Lady Juliana incredulously questions her family's shame over her situation.",
+        "why_it_works": "The emotional turmoil and family betrayal hook viewers immediately.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.668,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E049-C3",
+      "kind": "continuous",
+      "episode": "Episode 49",
+      "total_duration": 29.9,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 49",
+          "start_time": "01:12.60",
+          "end_time": "01:42.50",
+          "duration": 29.9,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine demands clarity from Father Thomas about her needs regarding the council hearing.",
+        "cliffhanger_description": "Catherine's bitter remark about her humiliation leaves the stakes unresolved.",
+        "why_it_works": "The tension in Catherine's demands and her emotional state draws viewers in.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.548,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E031-C2",
+      "kind": "continuous",
+      "episode": "Episode 31",
+      "total_duration": 39.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 31",
+          "start_time": "01:10.80",
+          "end_time": "01:50.50",
+          "duration": 39.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine insults Juliana, calling her a 'scarred nobody.'",
+        "cliffhanger_description": "Catherine scoffs at Juliana's claim of having people who need her.",
+        "why_it_works": "The intense dialogue sets up a power struggle that intrigues viewers.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.636,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E008-C2",
+      "kind": "continuous",
+      "episode": "Episode 8",
+      "total_duration": 22.9,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 8",
+          "start_time": "00:39.90",
+          "end_time": "01:02.80",
+          "duration": 22.9,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana playfully teases Alexander about his beard, setting a light-hearted tone.",
+        "cliffhanger_description": "Juliana hesitantly asks about Alexander's scars from the war, hinting at deeper emotional layers.",
+        "why_it_works": "The playful banter draws viewers in, while the mention of war scars adds intrigue and emotional depth.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.644,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E040-C1",
+      "kind": "continuous",
+      "episode": "Episode 40",
+      "total_duration": 23.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 40",
+          "start_time": "00:50.80",
+          "end_time": "01:14.20",
+          "duration": 23.4,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A nervous nobleman insists everything must go perfectly for the wedding.",
+        "cliffhanger_description": "The elder nobleman reveals a ruthless plan for the new Duke and Duchess by sunset.",
+        "why_it_works": "The tension of a wedding intertwined with a dark conspiracy hooks viewers immediately.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.8,
+        "failure_flags": [
+          "exposition",
+          "unclear relationships"
+        ]
+      },
+      "heuristic_prior": 0.4,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.3
+    },
+    {
+      "candidate_id": "E040-C2",
+      "kind": "continuous",
+      "episode": "Episode 40",
+      "total_duration": 27.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 40",
+          "start_time": "00:05.50",
+          "end_time": "00:33.20",
+          "duration": 27.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Harrington smugly observes the gathering of noble families at the wedding.",
+        "cliffhanger_description": "Lord Harrington's chuckling remark about Juliana's bad luck hints at her grim fate.",
+        "why_it_works": "The tension between the Harringtons and Juliana creates intrigue about the wedding's darker undertones.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 5.2,
+        "failure_flags": [
+          "exposition",
+          "unclear pronoun reference"
+        ]
+      },
+      "heuristic_prior": 0.388,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.2
+    },
+    {
+      "candidate_id": "E024-C3",
+      "kind": "continuous",
+      "episode": "Episode 24",
+      "total_duration": 21.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 24",
+          "start_time": "00:13.00",
+          "end_time": "00:34.50",
+          "duration": 21.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The noblewoman confronts Juliana about her presence in the chamber, setting a tense scene.",
+        "cliffhanger_description": "Juliana gasps in pain after being struck, leaving her fate uncertain.",
+        "why_it_works": "The confrontation and physical violence create immediate tension, compelling viewers to want to know more.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 5.6,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.468,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.1
+    },
+    {
+      "candidate_id": "E030-C2",
+      "kind": "continuous",
+      "episode": "Episode 30",
+      "total_duration": 22.3,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 30",
+          "start_time": "01:03.10",
+          "end_time": "01:25.40",
+          "duration": 22.3,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Rupert questions the law, setting up a tense discussion about accusations.",
+        "cliffhanger_description": "Catherine's question about Juliana claiming to be a healer leaves her fate uncertain.",
+        "why_it_works": "The intrigue of a conspiracy and the threat of execution hook viewers immediately.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 5.6,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.5874,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.1
+    },
+    {
+      "candidate_id": "E030-S4",
+      "kind": "stitched",
+      "episode": "Episode 30",
+      "total_duration": 38.51,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 30",
+          "start_time": "00:57.00",
+          "end_time": "01:04.30",
+          "duration": 7.3,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 30",
+          "start_time": "02:00.00",
+          "end_time": "02:31.21",
+          "duration": 31.21,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine inquires about a solution, and the elder nobleman suggests using the law to destroy Juliana.",
+        "cliffhanger_description": "The elder nobleman chillingly declares that Juliana will stop being a prisoner and become a witch, leaving her fate uncertain.",
+        "why_it_works": "The tension of a witchcraft charge and the imminent execution creates a gripping narrative that compels viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.0
+    },
+    {
+      "candidate_id": "E012-S4",
+      "kind": "stitched",
+      "episode": "Episode 12",
+      "total_duration": 39.11,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 12",
+          "start_time": "00:28.10",
+          "end_time": "00:32.40",
+          "duration": 4.3,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 12",
+          "start_time": "00:52.40",
+          "end_time": "01:27.21",
+          "duration": 34.81,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Clarissa taunts Juliana about her husband, setting a tense emotional tone.",
+        "cliffhanger_description": "Juliana defiantly demands to know where the garden is, leaving her fate uncertain.",
+        "why_it_works": "The intense ultimatum and emotional stakes create immediate intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.0
+    },
+    {
+      "candidate_id": "E019-C1",
+      "kind": "continuous",
+      "episode": "Episode 19",
+      "total_duration": 41.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 19",
+          "start_time": "00:44.30",
+          "end_time": "01:25.50",
+          "duration": 41.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A bald, scarred man bows and addresses Alexander as 'Your Grace.'",
+        "cliffhanger_description": "The informant asks, 'And when we have the proof?'",
+        "why_it_works": "The tension of a power struggle and the stakes for Alexander's mother create immediate intrigue.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 7.0,
+        "failure_flags": [
+          "exposition-heavy opening",
+          "unclear relationships",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.528,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 5.0
+    },
+    {
+      "candidate_id": "E005-C2",
+      "kind": "continuous",
+      "episode": "Episode 5",
+      "total_duration": 26.5,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 5",
+          "start_time": "00:55.50",
+          "end_time": "01:22.00",
+          "duration": 26.5,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana screams desperately as her stepmother throws her mother's ledger into the mud.",
+        "cliffhanger_description": "Juliana weeps, saying, 'They destroyed it.'",
+        "why_it_works": "The emotional turmoil and the act of humiliation create a strong emotional hook.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 4.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.4,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.5287,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.9
+    },
+    {
+      "candidate_id": "E033-S4",
+      "kind": "stitched",
+      "episode": "Episode 33",
+      "total_duration": 43.04,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 33",
+          "start_time": "01:09.50",
+          "end_time": "01:13.00",
+          "duration": 3.5,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 33",
+          "start_time": "02:14.50",
+          "end_time": "02:54.04",
+          "duration": 39.54,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The maid gasps in sheer terror, her chest heaving as tears stream.",
+        "cliffhanger_description": "The heartbroken maid weeps silently in the shadow of the desk, consumed by guilt and powerlessness.",
+        "why_it_works": "The emotional turmoil and high stakes of the maid's situation create immediate tension and intrigue.",
+        "hook_score": 8.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 6.8,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.708,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.8
+    },
+    {
+      "candidate_id": "E008-S4",
+      "kind": "stitched",
+      "episode": "Episode 8",
+      "total_duration": 46.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 8",
+          "start_time": "00:15.10",
+          "end_time": "00:21.80",
+          "duration": 6.7,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 8",
+          "start_time": "00:35.80",
+          "end_time": "01:15.30",
+          "duration": 39.5,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana asks Alexander how he knows about healing plants, hinting at a deeper connection.",
+        "cliffhanger_description": "Juliana reflects on her previous beliefs about wealth, suggesting a transformation.",
+        "why_it_works": "The dialogue hints at emotional depth and character development, enticing viewers to learn more.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 7.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.6,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.7
+    },
+    {
+      "candidate_id": "E006-C3",
+      "kind": "continuous",
+      "episode": "Episode 6",
+      "total_duration": 26.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 6",
+          "start_time": "01:29.00",
+          "end_time": "01:55.00",
+          "duration": 26.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A man reassures Juliana about the modest shelter, hinting at her vulnerability.",
+        "cliffhanger_description": "Juliana feels safe despite her losses, leaving her emotional state unresolved.",
+        "why_it_works": "The emotional depth and sense of safety amidst loss can resonate with viewers seeking heartfelt stories.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 5.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "emotion simply fades"
+        ]
+      },
+      "heuristic_prior": 0.46,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.7
+    },
+    {
+      "candidate_id": "E039-S3",
+      "kind": "stitched",
+      "episode": "Episode 39",
+      "total_duration": 39.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 39",
+          "start_time": "00:20.20",
+          "end_time": "00:23.20",
+          "duration": 3.0,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 39",
+          "start_time": "01:02.00",
+          "end_time": "01:38.00",
+          "duration": 36.0,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A loyalist fighter mentions there are four more guards inside, setting up tension.",
+        "cliffhanger_description": "Alexander vows to take back his house and bring his wife home, ending with a powerful declaration.",
+        "why_it_works": "The dramatic transformation of Alexander and his fierce determination create an engaging narrative that draws viewers in.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.54,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.7
+    },
+    {
+      "candidate_id": "E027-S4",
+      "kind": "stitched",
+      "episode": "Episode 27",
+      "total_duration": 45.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 27",
+          "start_time": "01:15.20",
+          "end_time": "01:20.50",
+          "duration": 5.3,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 27",
+          "start_time": "01:48.30",
+          "end_time": "02:28.00",
+          "duration": 39.7,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Catherine mocks Juliana for being a new maid and questions her authority to give medicine.",
+        "cliffhanger_description": "The Blond Nobleman orders the guard to take Juliana away, leaving her fate uncertain.",
+        "why_it_works": "The tension of accusation and the threat of arrest create a gripping moment that compels viewers to watch more.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.588,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.7
+    },
+    {
+      "candidate_id": "E031-C3",
+      "kind": "continuous",
+      "episode": "Episode 31",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 31",
+          "start_time": "01:31.40",
+          "end_time": "01:51.40",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Catherine confronts Juliana about her perceived superiority.",
+        "cliffhanger_description": "Catherine's derisive scoff leaves the tension unresolved.",
+        "why_it_works": "The intense dialogue showcases a power struggle that intrigues viewers.",
+        "hook_score": 6.0,
+        "cliffhanger_score": 4.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.0,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.596,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.5
+    },
+    {
+      "candidate_id": "E024-C1",
+      "kind": "continuous",
+      "episode": "Episode 24",
+      "total_duration": 20.0,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 24",
+          "start_time": "00:06.80",
+          "end_time": "00:26.80",
+          "duration": 20.0,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "The noblewoman confronts Juliana, questioning her presence in the chamber.",
+        "cliffhanger_description": "The noblewoman belittles Juliana's intentions, setting up a power struggle.",
+        "why_it_works": "The tension between the noblewoman and Juliana hints at deeper stakes and conflict.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.0,
+        "failure_flags": [
+          "exposition",
+          "unclear character relationships"
+        ]
+      },
+      "heuristic_prior": 0.596,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.5
+    },
+    {
+      "candidate_id": "E037-C3",
+      "kind": "continuous",
+      "episode": "Episode 37",
+      "total_duration": 20.2,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 37",
+          "start_time": "00:37.00",
+          "end_time": "00:57.20",
+          "duration": 20.2,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Clarissa receives a wedding invitation from Ashbridge Manor.",
+        "cliffhanger_description": "The nobleman asks, 'What?' as Clarissa hands him the letter.",
+        "why_it_works": "The intrigue around the wedding invitation hints at deeper drama and conflict.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.0,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.516,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.5
+    },
+    {
+      "candidate_id": "E019-C3",
+      "kind": "continuous",
+      "episode": "Episode 19",
+      "total_duration": 22.23,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 19",
+          "start_time": "01:37.40",
+          "end_time": "01:59.63",
+          "duration": 22.23,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Juliana expresses despair over their losses, saying, 'We have lost everything.'",
+        "cliffhanger_description": "Alexander reassures Juliana, but the weight of their situation remains unresolved.",
+        "why_it_works": "The emotional connection between the characters draws viewers in, hinting at deeper struggles ahead.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 5.0,
+        "failure_flags": [
+          "exposition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.4399,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.5
+    },
+    {
+      "candidate_id": "E041-C2",
+      "kind": "continuous",
+      "episode": "Episode 41",
+      "total_duration": 58.7,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 41",
+          "start_time": "00:34.80",
+          "end_time": "01:33.50",
+          "duration": 58.7,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A noblewoman scornfully remarks about Juliana not being a bride, setting a tone of humiliation.",
+        "cliffhanger_description": "A violent explosion interrupts the scene, hinting at an impending assault.",
+        "why_it_works": "The dramatic explosion and Juliana's defiance create immediate tension and intrigue.",
+        "hook_score": 5.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 4.0,
+        "composite_score": 6.4,
+        "failure_flags": [
+          "exposition-heavy opening",
+          "unclear character relationships",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.6184,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.4
+    },
+    {
+      "candidate_id": "E041-C3",
+      "kind": "continuous",
+      "episode": "Episode 41",
+      "total_duration": 20.29,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 41",
+          "start_time": "01:15.80",
+          "end_time": "01:36.09",
+          "duration": 20.29,
+          "role": "Hook+Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "A quiet triumphant declaration is followed by a solemn question, leading to a sudden explosion that shatters the scene.",
+        "cliffhanger_description": "Juliana turns her head, hinting at the chaos and danger approaching her.",
+        "why_it_works": "The explosive entrance creates immediate intrigue and visual spectacle, compelling viewers to want to know more.",
+        "hook_score": 7.0,
+        "cliffhanger_score": 6.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "needs earlier episodes",
+          "exposition",
+          "jarring stitch transition"
+        ]
+      },
+      "heuristic_prior": 0.5666,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.2
+    },
+    {
+      "candidate_id": "E022-S4",
+      "kind": "stitched",
+      "episode": "Episode 22",
+      "total_duration": 37.6,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 22",
+          "start_time": "00:58.50",
+          "end_time": "01:01.80",
+          "duration": 3.3,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 22",
+          "start_time": "01:34.50",
+          "end_time": "02:08.80",
+          "duration": 34.3,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Juliana responds to a harsh command from the housekeeper, indicating her low status.",
+        "cliffhanger_description": "Lady Juliana urgently questions who has been treating the Dowager Duchess, hinting at a deeper mystery.",
+        "why_it_works": "The tension builds as Lady Juliana uncovers a shocking truth about the Duchess's condition, compelling viewers to learn more.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.716,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.2
+    },
+    {
+      "candidate_id": "E040-S3",
+      "kind": "stitched",
+      "episode": "Episode 40",
+      "total_duration": 42.4,
+      "segments": [
+        {
+          "segment_index": 1,
+          "episode": "Episode 40",
+          "start_time": "00:42.00",
+          "end_time": "00:45.20",
+          "duration": 3.2,
+          "role": "Hook"
+        },
+        {
+          "segment_index": 2,
+          "episode": "Episode 40",
+          "start_time": "01:09.80",
+          "end_time": "01:49.00",
+          "duration": 39.2,
+          "role": "Cliffhanger"
+        }
+      ],
+      "evaluation": {
+        "hook_description": "Lady Harrington expresses excitement about the wedding, setting a tone of anticipation.",
+        "cliffhanger_description": "The elder nobleman ominously declares that the witch will be dead by sunset, leaving the fate of Juliana unresolved.",
+        "why_it_works": "The contrast between the wedding's elegance and the dark plot creates intrigue and tension.",
+        "hook_score": 4.0,
+        "cliffhanger_score": 9.0,
+        "standalone_clarity_score": 5.0,
+        "composite_score": 6.2,
+        "failure_flags": [
+          "jarring stitch transition",
+          "needs earlier episodes"
+        ]
+      },
+      "heuristic_prior": 0.6,
+      "evaluator": "gpt-4o-mini",
+      "rank_score": 4.2
+    }
+  ]
+}

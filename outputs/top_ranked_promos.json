@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "evaluator": "gpt-4o-mini",
+    "episodes": 50,
+    "candidates_evaluated": 181,
+    "after_nms": 161,
+    "iou_threshold": 0.6,
+    "runtime_s": 123.2,
+    "reranked": true
+  },
+  "top": [
+    {
+      "rank": 1,
+      "justification": "#1 Episode 36 (continuous cut, 54s, score 8.8, adjusted 8.3): hook 9/10, cliffhanger 10/10, clarity 6/10. The intense vow of vengeance and the shocking revelation of Juliana's fate create a gripping narrative that hooks viewers. Watch-outs: needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E036-C1",
+        "kind": "continuous",
+        "episode": "Episode 36",
+        "total_duration": 54.25,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 36",
+            "start_time": "02:26.50",
+            "end_time": "03:20.75",
+            "duration": 54.25,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Alexander learns about Rupert and Catherine's wedding and Juliana's fate.",
+          "cliffhanger_description": "Alexander vows to return from the dead and take revenge before the wedding.",
+          "why_it_works": "The intense vow of vengeance and the shocking revelation of Juliana's fate create a gripping narrative that hooks viewers.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 10.0,
+          "standalone_clarity_score": 6.0,
+          "composite_score": 8.8,
+          "failure_flags": [
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.744,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 8.3
+      }
+    },
+    {
+      "rank": 2,
+      "justification": "#2 Episode 32 (continuous cut, 35s, score 8.6, adjusted 8.1): hook 9/10, cliffhanger 10/10, clarity 5/10. The intense confrontation and imminent danger create a gripping moment that compels viewers to watch more. Watch-outs: unclear character relationships; needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E032-C1",
+        "kind": "continuous",
+        "episode": "Episode 32",
+        "total_duration": 35.1,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 32",
+            "start_time": "01:56.90",
+            "end_time": "02:32.00",
+            "duration": 35.1,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Juliana confronts Catherine, accusing her of never learning how to make anyone love her.",
+          "cliffhanger_description": "Catherine threatens Juliana with a branding rod, leaving her gasping in fear.",
+          "why_it_works": "The intense confrontation and imminent danger create a gripping moment that compels viewers to watch more.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 10.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.6,
+          "failure_flags": [
+            "unclear character relationships",
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.696,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 8.1
+      }
+    },
+    {
+      "rank": 3,
+      "justification": "#3 Episode 39 (continuous cut, 22s, score 8.4, adjusted 7.9): hook 9/10, cliffhanger 9/10, clarity 6/10. The powerful declaration and emotional stakes create immediate intrigue for viewers. Watch-outs: unclear character relationships; needs earlier episodes context.",
+      "promo": {
+        "candidate_id": "E039-C1",
+        "kind": "continuous",
+        "episode": "Episode 39",
+        "total_duration": 22.2,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 39",
+            "start_time": "01:15.80",
+            "end_time": "01:38.00",
+            "duration": 22.2,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Alexander asserts his authority and determination to reclaim his house and wife.",
+          "cliffhanger_description": "The screen cuts to black just as Alexander vows to bring his wife home, leaving his fate uncertain.",
+          "why_it_works": "The powerful declaration and emotional stakes create immediate intrigue for viewers.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 6.0,
+          "composite_score": 8.4,
+          "failure_flags": [
+            "unclear character relationships",
+            "needs earlier episodes context"
+          ]
+        },
+        "heuristic_prior": 0.46,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.9
+      }
+    },
+    {
+      "rank": 4,
+      "justification": "#4 Episode 46 (continuous cut, 20s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The intense conflict and Juliana's fierce defiance create immediate intrigue. Watch-outs: unclear relationships between characters; context needed for the wedding situation.",
+      "promo": {
+        "candidate_id": "E046-C3",
+        "kind": "continuous",
+        "episode": "Episode 46",
+        "total_duration": 20.0,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 46",
+            "start_time": "00:42.80",
+            "end_time": "01:02.80",
+            "duration": 20.0,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "The High Priest declares the wedding invalid due to lack of royal license, shocking the audience with the implications.",
+          "cliffhanger_description": "Juliana defiantly states she didn't need permission to survive, leaving her fate uncertain.",
+          "why_it_works": "The intense conflict and Juliana's fierce defiance create immediate intrigue.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear relationships between characters",
+            "context needed for the wedding situation"
+          ]
+        },
+        "heuristic_prior": 0.52,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 5,
+      "justification": "#5 Episode 45 (continuous cut, 20s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The intense confrontation and declaration of marriage hook viewers, while the cliffhanger raises stakes and curiosity. Watch-outs: unclear relationships; needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E045-C2",
+        "kind": "continuous",
+        "episode": "Episode 45",
+        "total_duration": 20.0,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 45",
+            "start_time": "00:54.00",
+            "end_time": "01:14.00",
+            "duration": 20.0,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Alexander accuses Catherine of poisoning his mother and torturing his wife, creating immediate tension.",
+          "cliffhanger_description": "Alexander declares Juliana his wife, leaving the audience shocked and wanting to know more about the implications.",
+          "why_it_works": "The intense confrontation and declaration of marriage hook viewers, while the cliffhanger raises stakes and curiosity.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear relationships",
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.576,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 6,
+      "justification": "#6 Episode 37 (continuous cut, 20s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The juxtaposition of a wedding and execution creates a gripping tension that intrigues viewers. Watch-outs: unclear relationships between characters; context needed for execution decree.",
+      "promo": {
+        "candidate_id": "E037-C1",
+        "kind": "continuous",
+        "episode": "Episode 37",
+        "total_duration": 20.2,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 37",
+            "start_time": "00:54.00",
+            "end_time": "01:14.20",
+            "duration": 20.2,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Lady Clarissa reveals a shocking decree about a public execution paired with a wedding.",
+          "cliffhanger_description": "The nobleman asks, 'To whom?' leaving the audience in suspense.",
+          "why_it_works": "The juxtaposition of a wedding and execution creates a gripping tension that intrigues viewers.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear relationships between characters",
+            "context needed for execution decree"
+          ]
+        },
+        "heuristic_prior": 0.548,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 7,
+      "justification": "#7 Episode 35 (continuous cut, 20s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The intense emotions and shocking revelations create immediate intrigue for new viewers. Watch-outs: unclear pronoun reference; needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E035-C3",
+        "kind": "continuous",
+        "episode": "Episode 35",
+        "total_duration": 20.5,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 35",
+            "start_time": "02:17.00",
+            "end_time": "02:37.50",
+            "duration": 20.5,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Alexander reveals a shocking betrayal that led to his men's deaths.",
+          "cliffhanger_description": "He ominously states that the conspirators are now in power, leaving the question of who they are unanswered.",
+          "why_it_works": "The intense emotions and shocking revelations create immediate intrigue for new viewers.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear pronoun reference",
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.6111,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 8,
+      "justification": "#8 Episode 21 (continuous cut, 21s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The emotional urgency and desperation immediately draw viewers in, while the unresolved fate of Toby creates a compelling reason to watch more. Watch-outs: unclear character relationships; needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E021-C3",
+        "kind": "continuous",
+        "episode": "Episode 21",
+        "total_duration": 20.8,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 21",
+            "start_time": "00:04.20",
+            "end_time": "00:25.00",
+            "duration": 20.8,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "A desperate plea for help as a girl reveals her brother is dying.",
+          "cliffhanger_description": "Prudence reveals the doctor laughed at her plea for help, leaving Toby's fate uncertain.",
+          "why_it_works": "The emotional urgency and desperation immediately draw viewers in, while the unresolved fate of Toby creates a compelling reason to watch more.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear character relationships",
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.468,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 9,
+      "justification": "#9 Episode 26 (continuous cut, 23s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The emotional stakes are high, and the mystery of Juliana's identity hooks viewers. Watch-outs: unclear character relationships; needs earlier episodes.",
+      "promo": {
+        "candidate_id": "E026-C1",
+        "kind": "continuous",
+        "episode": "Episode 26",
+        "total_duration": 23.4,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 26",
+            "start_time": "00:56.00",
+            "end_time": "01:19.40",
+            "duration": 23.4,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "The Dowager Duchess accuses her family of poisoning her, creating immediate tension.",
+          "cliffhanger_description": "The Duchess demands to know why Juliana, with her noble spirit, is a maid, leaving her identity in question.",
+          "why_it_works": "The emotional stakes are high, and the mystery of Juliana's identity hooks viewers.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear character relationships",
+            "needs earlier episodes"
+          ]
+        },
+        "heuristic_prior": 0.6442,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    },
+    {
+      "rank": 10,
+      "justification": "#10 Episode 48 (continuous cut, 24s, score 8.2, adjusted 7.7): hook 9/10, cliffhanger 9/10, clarity 5/10. The intense delivery and menacing tone create immediate intrigue about Catherine's motives and the stakes involved. Watch-outs: unclear relationships between characters; context needed for the healer's crown and council.",
+      "promo": {
+        "candidate_id": "E048-C3",
+        "kind": "continuous",
+        "episode": "Episode 48",
+        "total_duration": 24.1,
+        "segments": [
+          {
+            "segment_index": 1,
+            "episode": "Episode 48",
+            "start_time": "00:02.40",
+            "end_time": "00:26.50",
+            "duration": 24.1,
+            "role": "Hook+Cliffhanger"
+          }
+        ],
+        "evaluation": {
+          "hook_description": "Catherine delivers a chilling line about a healer's crown rolling into the gutter, showcasing her vindictive nature.",
+          "cliffhanger_description": "Catherine ominously states that ten days is a door that can be closed from the other side, hinting at her secret plans.",
+          "why_it_works": "The intense delivery and menacing tone create immediate intrigue about Catherine's motives and the stakes involved.",
+          "hook_score": 9.0,
+          "cliffhanger_score": 9.0,
+          "standalone_clarity_score": 5.0,
+          "composite_score": 8.2,
+          "failure_flags": [
+            "unclear relationships between characters",
+            "context needed for the healer's crown and council"
+          ]
+        },
+        "heuristic_prior": 0.436,
+        "evaluator": "gpt-4o-mini",
+        "rank_score": 7.7
+      }
+    }
+  ]
+}

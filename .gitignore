@@ -1,5 +1,4 @@
 input/
-outputs*/
 __pycache__/
 .env
 venv/
