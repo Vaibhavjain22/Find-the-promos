@@ -16,6 +16,15 @@ streamlit run app.py
 Outputs: `outputs/promos_master.json` (nested), `promos_master.csv` (flat), `top_ranked_promos.json` (top 10, one per episode, with justification).
 Submit the folder produced by the **real** run, not the dry run.
 
+## Streamlit Web UI (`app.py`)
+
+The interactive web dashboard is designed for editorial teams and live interview evaluations (`streamlit run app.py`):
+
+1. **Leaderboard (`Tab 1`):** Ranked overview of all deduplicated promos. Includes filtering by cut type (Continuous vs. Stitched) and interactive score thresholds, displaying duration, hook, cliffhanger cutoffs, and warning flags.
+2. **Episode Viewer (`Tab 2`):** Episode screenplay inspector that dynamically highlights discovered promo segments directly over the dialogue and character actions.
+3. **Downloads (`Tab 3`):** One-click export for raw batch outputs (`promos_master.json`, `promos_master.csv`, and `top_ranked_promos.json`).
+4. **Analyze a New Episode (`Tab 4`):** Real-time promo extractor. Allows an interviewer or editor to upload any new screenplay `.txt` file, running the end-to-end pipeline (parsing, candidate slicing, LLM scoring, and ranking) on demand with zero manual configuration.
+
 ## Architecture
 
 | Step | Tool | Module |
