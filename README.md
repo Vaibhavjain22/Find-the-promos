@@ -2,19 +2,57 @@
 
 Finds 20–60s promo clips (continuous or 2-segment stitched) in timestamped microdrama screenplays, scores them with an LLM, de-duplicates and ranks them across a show.
 
-## Run
+## Quickstart & How to Run
 
+### 1. Installation & Environment Setup
+Clone the repository and set up a virtual environment:
 ```bash
+git clone <your-repo-link>
+cd Promos
+
+# Create and activate virtual environment
+python -m venv venv
+# On Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-# put the episode .txt files in ./input   (confidential, do not commit them)
-set OPENAI_API_KEY=sk-...                      # PowerShell: $env:OPENAI_API_KEY="sk-..."
-python main.py --input input --out outputs     # real run (gpt-4o-mini)
-python main.py --dry-run --out outputs_dryrun  # no LLM, keyword scores, smoke test only
-streamlit run app.py
 ```
 
-Outputs: `outputs/promos_master.json` (nested), `promos_master.csv` (flat), `top_ranked_promos.json` (top 10, one per episode, with justification).
-Submit the folder produced by the **real** run, not the dry run.
+### 2. Configure API Key
+Create a `.env` file in the project root:
+```bash
+OPENAI_API_KEY="sk-..."
+```
+*(Alternatively, set it in your environment: `export OPENAI_API_KEY="sk-..."` or in PowerShell `$env:OPENAI_API_KEY="sk-..."`)*
+
+### 3. Launch the Interactive Web Dashboard (UI)
+```bash
+streamlit run app.py
+```
+Open `http://localhost:8501` to:
+- Browse top ranked promos across the series.
+- View scripts with highlighted promo cuts.
+- **Upload and analyze a single new episode on the fly** in the *Analyze a New Episode* tab.
+
+### 4. Run Batch Pipeline via CLI (All 50 Episodes)
+```bash
+# Full LLM-scored run across all screenplays (gpt-4o-mini)
+python main.py --input input --out outputs
+
+# Re-rank saved results instantly without spending API tokens
+python main.py --rerank --out outputs
+
+# Offline dry-run for smoke testing without LLM
+python main.py --dry-run --out outputs_dryrun
+```
+
+Generated outputs will be saved in `outputs/`:
+- `promos_master.json`: Full nested schema with all evaluated promos.
+- `promos_master.csv`: Flattened tabular view for quick review.
+- `top_ranked_promos.json`: Curated top picks to post first with marketing rationales.
 
 ## Streamlit Web UI (`app.py`)
 
